@@ -19,10 +19,10 @@ function App() {
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
             
-            {/* <div>
+            <div>
                <a href="Abdul-Rehman-Gull.pdf" target="_blank" className="cv">Download CV</a>
             </div>
-            */}
+           
 
            
 
