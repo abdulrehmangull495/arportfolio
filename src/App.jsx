@@ -1,11 +1,7 @@
 import { useState } from "react";
 
-// import './App.css'
+
 import "./index.css";
-// import './'
-
-// import ''
-
 function App() {
   return (
     <>
@@ -44,7 +40,7 @@ function App() {
             <div className="location">
               <h2 className="label">Location</h2>
               {/* <a href="loc:gulistancolonyno1fsd">gulistancolonyno1fsd</a> */}
-              <p className="value">Gulistan colony no1 fsd</p>
+              <p className="value">Faisalabad</p>
             </div>
           </div>
           <div className="social">
@@ -67,8 +63,7 @@ function App() {
               />
             </a>
            <a href="https://wa.me/923141458867" target="_blank">
-         {/* <img src="https://www.svgrepo.com/show/217753/whatsapp.svg" alt="WhatsApp" width="100px" /> */}
-         {/* <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons"></a> */}
+      
          <img src="what.png" alt="" />
            </a>
 
@@ -79,7 +74,7 @@ function App() {
           {/* navigation */}
           <div id="navigation">
             <nav>
-              <a href="#about" class="active">
+              <a href="#about" className="active">
                 About
               </a>
               <a href="#skills">Skills</a>
@@ -106,17 +101,17 @@ function App() {
           <div className="line"></div>
           <div className="grid-container">
             <div className="item">
-              {/* <img src="https://simpleicons.org/icons/html5.svg" alt="HTML5"> */}
+           
               <img src="https://simpleicons.org/icons/html5.svg" alt="HTML5" />
               <h3>HTML5</h3>
             </div>
             <div className="item">
-              {/* <img src="https://simpleicons.org/icons/css.svg" alt="CSS3"> */}
+              
               <img src="https://simpleicons.org/icons/css.svg" alt="CSS3" />
               <h3>CSS3</h3>
             </div>
             <div className="item">
-              {/* <img src="https://simpleicons.org/icons/javascript.svg" alt="JavaScript"> */}
+      
               <img
                 src="https://simpleicons.org/icons/javascript.svg"
                 alt="JavaScript"
@@ -124,7 +119,7 @@ function App() {
               <h3>JavaScript</h3>
             </div>
             <div className="item">
-              {/* <img src="https://simpleicons.org/icons/bootstrap.svg" alt="Bootstrap5"> */}
+             
               <img
                 src="https://simpleicons.org/icons/bootstrap.svg"
                 alt="Bootstrap5"
@@ -132,7 +127,7 @@ function App() {
               <h3>Bootstrap5</h3>
             </div>
             <div className="item">
-              {/* <img src="https://simpleicons.org/icons/tailwindcss.svg" alt="Tailwindcss"> */}
+             
               <img
                 src="https://simpleicons.org/icons/tailwindcss.svg"
                 alt="Tailwindcss"
@@ -140,21 +135,14 @@ function App() {
               <h3>Tailwindcss</h3>
             </div>
             <div className="item">
-              {/* <img src="https://simpleicons.org/icons/react.svg" alt="Reactjs"> */}
+       
               <img
                 src="https://simpleicons.org/icons/react.svg"
                 alt="Reactjs"
               />
               <h3>Reactjs</h3>
             </div>
-            <div className="item">
-              {/* <img src="https://simpleicons.org/icons/wordpress.svg" alt="Reactjs"> */}
-              <img
-                src="https://simpleicons.org/icons/wordpress.svg"
-                alt="WordPress"
-              />
-              <h3>WordPress</h3>
-            </div>
+            
           </div>
           {/* education */}
           <div id="education">
@@ -196,9 +184,9 @@ function App() {
             <h2 className="headingportfolio">PortFolio</h2>
             <div className="line"></div>
             <div className="project-container">
-              <div className="project">
+              {/* <div className="project">
                 <a href="https://dev-pak-cart.pantheonsite.io/" target="_blank">
-                  {/* <img src="/assets/vege.png" alt=""> */}
+               
                   <img src="vege.png" alt="" />
                 </a>
                 <div className="card">
@@ -209,11 +197,11 @@ function App() {
                   </p>
                   <span>WordPress</span>
                   <span>Elementor</span>
-                  {/* <span>Wp Forms</span> */}
+              
                   <span>Astra</span>
                 </div>
-              </div>
-              <div className="project">
+              </div> */}
+              {/* <div className="project">
                 <a href="https://dev-arecom.pantheonsite.io/" target="_blank">
                   <img src="ecom.png" alt="" />
                 </a>
@@ -226,16 +214,16 @@ function App() {
                   </p>
                   <span>WordPress</span>
                   <span>Elementor</span>
-                  {/* <span>Wp Forms</span> */}
+                  
                   <span>Astra</span>
                 </div>
-              </div>
-              <div class="project">
+              </div> */}
+              <div className="project">
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img src="Screenshot 2025-09-24 155923.png" alt="" />
                 </a>
 
-                <div class="card">
+                <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
                     I have created a fully responsive Kitemens landing page
@@ -246,17 +234,17 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </div>
-              <div class="project">
+              <div className="project">
                 <a
                   href="https://brarchitectslandingpage.surge.sh/"
                   target="_blank"
                 >
                   <img src="brarch.png" alt="" />
                 </a>
-                <div class="card">
+                <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                    I have created a fully responsive BR landing page using
+                    I have created a fully responsive BR Architecture landing page using
                     HTML5,CSS3 and Bootstrap5.
                   </p>
                   <span>Html5</span>
@@ -264,20 +252,25 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </div>
-              {/* <div class="project">
-                      <a  href="https://tokbackup.surge.sh/" target="_blank">
-                      <img class="tokbackup" src="tkback.png" alt=""/>
-                      </a>  
-                      
-                        <div class="card">
-                            <h3>Random Quotes Generator</h3>
-                            <p>Random Quotes Generator using Html5,css3 & javascript.</p>
-                            <span>Html5</span>
-                            <span>Css3</span>
-                            <span>Javascript</span>
-                        </div>
-                    </div> */}
               <div className="project">
+                <a href="https://coffeenest.surge.sh/" target="_blank">
+                  <img className="coffee" src="coffee.png" alt="" />
+
+                  
+                </a>
+                <div className="card">
+                  <h3>Coffee Nest</h3>
+                  <p>
+                   I built a fully responsive 3 page website using HTML, CSS
+                   and Bootstrap with a clean UI and smooth experience on all screen sizes.
+                  </p>
+                  <span>Html5</span>
+                  <span>Css3</span>
+                  <span>Bootstrap5</span>
+                </div>
+              </div>
+             
+              {/* <div className="project">
                 <img src="quotes.png" alt="" />
                 <div className="card">
                   <h3>Random Quotes Generator</h3>
@@ -286,16 +279,16 @@ function App() {
                   <span>Css3</span>
                   <span>Javascript</span>
                 </div>
-              </div>
+              </div> */}
               <div className="project">
                 <a href=" https://dashboardtask.surge.sh/" target="_blank">
-                  <img class="ads" src="dash.png" alt="" />
+                  <img className="ads" src="dash.png" alt="" />
                 </a>
                 <div className="card">
                   <h3>Dashboard</h3>
                   <p>
-                    Create a fully responsive Adslitics dashboard using
-                    HTML5,CSS3 and Bootstrap5.
+                   Created a fully responsive Adslitics dashboard using HTML5, CSS3 and Bootstrap 5
+                   with a clean layout and mobile friendly design.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -306,7 +299,7 @@ function App() {
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img className="ads" src="inkomoko.png" alt="" />
 
-                  {/* <img src="" alt="" /> */}
+                  
                 </a>
                 <div className="card">
                   <h3>Dashboard</h3>
@@ -319,18 +312,12 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </div>
+               
             </div>
           </div>
         </div>
       </div>
-      {/* <footer>
-  <p>&copy; 2025 Aapka Naam. All rights reserved.</p>
-  <div className="social-links">
-    <a href="https://github.com/username" target="_blank">GitHub</a> |
-    <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a> |
-    <a href="mailto:email@example.com">Email</a>
-  </div>
-</footer> */}
+     
     </>
   );
 }
