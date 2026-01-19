@@ -87,12 +87,9 @@ function App() {
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              Passionate Frontend Developer with 6 months of experience in
-              building responsive and user-friendly websites using HTML5,CSS3,JavaScript,Tailwindcss and modern frameworks like React
-              and Bootstrap5.Strong eye for design and usability,committed to
-              delivering clean code and seamless user experiences.Always eager
-              to learn new technologies and stay updated with the latest web
-              trends.
+              Frontend Web Developer with 6 months of experience in building responsive and user-friendly 
+              websites. Skilled in HTML5, CSS3, JavaScript, Bootstrap 5, Tailwind CSS and React.js. Holds a BSCS 
+              degree and focuses on clean code and modern UI design.
             </p>
           </div>
           {/* skills */}
