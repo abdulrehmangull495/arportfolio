@@ -92,7 +92,7 @@ function App() {
               and Bootstrap5.Strong eye for design and usability,committed to
               delivering clean code and seamless user experiences.Always eager
               to learn new technologies and stay updated with the latest web
-              trends.{" "}
+              trends.
             </p>
           </div>
           {/* skills */}
@@ -163,7 +163,7 @@ function App() {
                 <div className="goal"></div>
               </div>
 
-              <div className="edsecond">
+              {/* <div className="edsecond">
                 <div className="year">2017-2019</div>
                 <h3 className="degree">Fsc Pre Engineering</h3>
                 <p className="college">
@@ -175,13 +175,13 @@ function App() {
                   Development.
                 </p>
                 <div className="goal"></div>
-              </div>
+              </div> */}
               <div className="liner"></div>
             </div>
           </div>
           {/* portfolio */}
           <div id="portfolio">
-            <h2 className="headingportfolio">PortFolio</h2>
+            <h2 className="headingportfolio">Portfolio</h2>
             <div className="line"></div>
             <div className="project-container">
               {/* <div className="project">
@@ -281,16 +281,16 @@ function App() {
                 </div>
               </div> */}
               <div className="project">
-                <a href=" https://dashboardtask.surge.sh/" target="_blank">
-                  <img className="ads" src="dash.png" alt="" />
+                <a href="https://adsliticsdash.vercel.app/" target="_blank">
+                  <img className="ads" src="adsl.png" alt="" />
                 </a>
                 <div className="card">
                   <h3>Dashboard</h3>
                   <p>
-                   Created a fully responsive Adslitics dashboard using HTML5, CSS3 and Bootstrap 5
-                   with a clean layout and mobile friendly design.
+                   Developed a fully responsive Adslitics dashboard using React.js, 
+                   CSS3 and Bootstrap 5, featuring a clean layout and mobile-friendly design.
                   </p>
-                  <span>Html5</span>
+                  <span>React.js</span>
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
