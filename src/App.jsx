@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 import "./index.css";
 function App() {
   return (
@@ -9,19 +8,16 @@ function App() {
         {/* sidebar */}
         <div className="sidebar">
           <div className="profile">
-          
             <img src="abdul rehman.png" alt="" width={"100px"} />
-      
+
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
-            
+
             <div>
-               <a href="Abdul-Rehman-Gull.pdf" target="_blank" className="cv">Download CV</a>
+              <a href="Abdul-Rehman-Gull.pdf" target="_blank" className="cv">
+                Download CV
+              </a>
             </div>
-           
-
-           
-
           </div>
 
           <div className="contact">
@@ -52,21 +48,20 @@ function App() {
               {/* <img src="/assets/facebook.svg"  alt=""> */}
               <img src="facebook.svg" alt="" width={"100px"} />
             </a>
-            
-            <a href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
-              target="_blank">
-             
+
+            <a
+              href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
+              target="_blank"
+            >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt=""
                 width={"100px"}
               />
             </a>
-           <a href="https://wa.me/923141458867" target="_blank">
-      
-         <img src="what.png" alt="" />
-           </a>
-
+            <a href="https://wa.me/923141458867" target="_blank">
+              <img src="what.png" alt="" />
+            </a>
           </div>
         </div>
         {/*  main content */}
@@ -87,10 +82,12 @@ function App() {
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              I am a Front-End Developer with 6 months of experience in building responsive and user-friendly 
-              websites. Skilled in HTML5, CSS3, JavaScript, BootStrap 5,Tailwind CSS and React.js, I create clean, efficient code and seamless
-               interfaces. Passionate about design and development, I stay updated with the latest 
-               web technologies to deliver high-quality user experiences.
+              Frontend Developer with 6 months of experience, specializing in
+              React.js and modern UI development. Skilled in React.js,
+              JavaScript, HTML5, CSS3, Tailwind CSS, and Bootstrap 5, with hands
+              on experience building responsive and user-friendly interfaces.
+              Focused on creating fast, maintainable UI and solving common
+              frontend problems like performance issues and messy code.
             </p>
           </div>
           {/* skills */}
@@ -99,17 +96,14 @@ function App() {
           <div className="line"></div>
           <div className="grid-container">
             <div className="item">
-           
               <img src="https://simpleicons.org/icons/html5.svg" alt="HTML5" />
               <h3>HTML5</h3>
             </div>
             <div className="item">
-              
               <img src="https://simpleicons.org/icons/css.svg" alt="CSS3" />
               <h3>CSS3</h3>
             </div>
             <div className="item">
-      
               <img
                 src="https://simpleicons.org/icons/javascript.svg"
                 alt="JavaScript"
@@ -117,7 +111,6 @@ function App() {
               <h3>JavaScript</h3>
             </div>
             <div className="item">
-             
               <img
                 src="https://simpleicons.org/icons/bootstrap.svg"
                 alt="Bootstrap5"
@@ -125,7 +118,6 @@ function App() {
               <h3>Bootstrap5</h3>
             </div>
             <div className="item">
-             
               <img
                 src="https://simpleicons.org/icons/tailwindcss.svg"
                 alt="Tailwindcss"
@@ -133,14 +125,12 @@ function App() {
               <h3>Tailwindcss</h3>
             </div>
             <div className="item">
-       
               <img
                 src="https://simpleicons.org/icons/react.svg"
                 alt="Reactjs"
               />
               <h3>Reactjs</h3>
             </div>
-            
           </div>
           {/* education */}
           <div id="education">
@@ -242,8 +232,8 @@ function App() {
                 <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                    I have created a fully responsive BR Architecture landing page using
-                    HTML5,CSS3 and Bootstrap5.
+                    I have created a fully responsive BR Architecture landing
+                    page using HTML5,CSS3 and Bootstrap5.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -253,21 +243,20 @@ function App() {
               <div className="project">
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img className="coffee" src="coffee.png" alt="" />
-
-                  
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
                   <p>
-                   I built a fully responsive 3 page website using HTML, CSS
-                   and Bootstrap with a clean UI and smooth experience on all screen sizes.
+                    I built a fully responsive 3 page website using HTML, CSS
+                    and Bootstrap with a clean UI and smooth experience on all
+                    screen sizes.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
               </div>
-             
+
               {/* <div className="project">
                 <img src="quotes.png" alt="" />
                 <div className="card">
@@ -285,8 +274,9 @@ function App() {
                 <div className="card">
                   <h3>Dashboard</h3>
                   <p>
-                   Developed a fully responsive Adslitics dashboard using React.js, 
-                   CSS3 and Bootstrap 5, featuring a clean layout and mobile-friendly design.
+                    Developed a fully responsive Adslitics dashboard using
+                    React.js, CSS3 and Bootstrap 5, featuring a clean layout and
+                    mobile-friendly design.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
@@ -296,8 +286,6 @@ function App() {
               <div className="project">
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img className="ads" src="inkomoko.png" alt="" />
-
-                  
                 </a>
                 <div className="card">
                   <h3>Dashboard</h3>
@@ -310,12 +298,10 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </div>
-               
             </div>
           </div>
         </div>
       </div>
-     
     </>
   );
 }
