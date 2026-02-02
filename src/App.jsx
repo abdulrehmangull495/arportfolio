@@ -84,7 +84,7 @@ function App() {
             <p className="content">
               Frontend Developer with 6 months of experience, specializing in
               React.js and modern UI development. Skilled in React.js,
-              JavaScript, HTML5, CSS3, Tailwind CSS, and Bootstrap 5, with hands
+              JavaScript, HTML5, CSS3, Tailwind CSS and Bootstrap 5 with hands
               on experience building responsive and user-friendly interfaces.
               Focused on creating fast, maintainable UI and solving common
               frontend problems like performance issues and messy code.
