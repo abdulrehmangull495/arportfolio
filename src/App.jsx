@@ -8,7 +8,7 @@ function App() {
         {/* sidebar */}
         <aside className="sidebar">
           <div className="profile">
-            {/* <img src="abdul rehman.png" alt="abdul rehman" width={"100px"} height={"100px"} /> */}
+
             <img src="abdul rehman.png" alt="Abdul Rehman" width="100" height="100" style={{ objectFit: 'cover' }} />
 
 
