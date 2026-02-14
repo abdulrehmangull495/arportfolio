@@ -159,7 +159,7 @@ function App() {
                   <img src="brarch.png" alt="brarchitects" width={"100px"} height={"100px"} />
                 </a>
                 <div className="card">
-                  <h3>BR Architecture</h3>
+                  <h2>BR Architecture</h2>
                   <p>
                     I have created a fully responsive BR Architecture landing
                     page using HTML5,CSS3 and Bootstrap5.
@@ -174,7 +174,7 @@ function App() {
                   <img className="coffee" src="coffee.png" alt="coffee" width={"100px"} height={"100px"} />
                 </a>
                 <div className="card">
-                  <h3>Coffee Nest</h3>
+                  <h2>Coffee Nest</h2>
                   <p>
                     I built a fully responsive 3 page website using HTML, CSS
                     and Bootstrap with a clean UI and smooth experience on all
@@ -192,7 +192,7 @@ function App() {
                   <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
                 </a>
                 <div className="card">
-                  <h3>Adslitics Dashboard</h3>
+                  <h2>Adslitics Dashboard</h2>
                   <p>
                     Developed a fully responsive React.js dashboard with mobile-friendly design.
                   </p>
@@ -206,7 +206,7 @@ function App() {
                   <img className="ads" src="inkomoko.png" alt="inkomoko" width={"100px"} height={"100px"}/>
                 </a>
                 <div className="card">
-                  <h3>Dashboard</h3>
+                  <h2>Inkomoko Dashboard</h2>
                   <p>
                     Create a fully responsive inkomoko dashboard using
                     HTML5,CSS3 and Bootstrap5.
