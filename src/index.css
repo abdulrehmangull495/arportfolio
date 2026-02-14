@@ -66,15 +66,14 @@ body{
 }
 
 .cv{
-     color: #d6a71a;
+   color: #d6a71a;
    text-decoration: none;
- 
    position: relative;
    border: 1px solid #3a3a3a;
    top: 8px;
    border-radius: 8px;
-       font-size: 0.8rem;
-   
+   font-size: 0.8rem;
+   outline: none;
    background-color: #1e1e1e;
    padding: 10px;
    
