@@ -16,7 +16,7 @@ function App() {
             <p>Frontend Developer</p>
 
             <div>
-              <a href="/Abdul-Rehman Gull-Frontend-Developer-Resume.pdf" target="_blank" className="cv">
+              <a href="/Abdul-Rehman Gull-FrontendDeveloper-Resume.pdf" target="_blank" className="cv">
                 Download Resume</a>
             </div>
           </div>
