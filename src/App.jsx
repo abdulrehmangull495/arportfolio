@@ -41,7 +41,7 @@ function App() {
             </div>
           </div>
           <div className="social">
-            <h2 className="contactme">Contact me</h2>
+            <h3 className="contactme">Contact me</h3>
             <a href="https://www.facebook.com/profile.php?id=100028939350475"
               target="_blank"  aria-label="Facebook profile" >
               
@@ -141,7 +141,7 @@ function App() {
                 </a>
 
                 <div className="card">
-                  <h2>Kitemens Landing Page</h2>
+                  <h3>Kitemens Landing Page</h3>
                   <p>
                     I have created a fully responsive Kitemens landing page
                     using HTML5,CSS3 and Bootstrap5.
@@ -159,7 +159,7 @@ function App() {
                   <img src="brarch.png" alt="brarchitects" width={"100px"} height={"100px"} />
                 </a>
                 <div className="card">
-                  <h2>BR Architecture</h2>
+                  <h3>BR Architecture</h3>
                   <p>
                     I have created a fully responsive BR Architecture landing
                     page using HTML5,CSS3 and Bootstrap5.
@@ -174,7 +174,7 @@ function App() {
                   <img className="coffee" src="coffee.png" alt="coffee" width={"100px"} height={"100px"} />
                 </a>
                 <div className="card">
-                  <h2>Coffee Nest</h2>
+                  <h3>Coffee Nest</h3>
                   <p>
                     I built a fully responsive 3 page website using HTML, CSS
                     and Bootstrap with a clean UI and smooth experience on all
@@ -192,9 +192,9 @@ function App() {
                   <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
                 </a>
                 <div className="card">
-                  <h2>Adslitics Dashboard</h2>
+                  <h3>Adslitics Dashboard</h3>
                   <p>
-                    Developed a fully responsive React.js dashboard with mobile-friendly design.
+                    Designed and developed a responsive React.js dashboard with a clean interface and optimized mobile usability.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
@@ -206,7 +206,7 @@ function App() {
                   <img className="ads" src="inkomoko.png" alt="inkomoko" width={"100px"} height={"100px"}/>
                 </a>
                 <div className="card">
-                  <h2>Inkomoko Dashboard</h2>
+                  <h3>Inkomoko Dashboard</h3>
                   <p>
                     Create a fully responsive inkomoko dashboard using
                     HTML5,CSS3 and Bootstrap5.
