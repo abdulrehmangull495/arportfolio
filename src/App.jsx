@@ -15,7 +15,7 @@ function App() {
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
 
-            <div>
+            <div className="downloadresume">
               <a href="/Abdul-Rehman Gull-FrontendDeveloper-Resume.pdf" target="_blank" className="cv">
                 Download Resume</a>
             </div>
@@ -143,8 +143,8 @@ function App() {
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
-                    I have created a fully responsive Kitemens landing page
-                    using HTML5,CSS3 and Bootstrap5.
+                Built a fully responsive Kitemens landing page 
+                using HTML5, CSS3 and Bootstrap 5 focusing on modern layout and mobile-friendly design.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -161,8 +161,8 @@ function App() {
                 <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                    I have created a fully responsive BR Architecture landing
-                    page using HTML5,CSS3 and Bootstrap5.
+                    Designed and developed a fully responsive BR Architecture landing page using 
+                    HTML5, CSS3 and Bootstrap 5 ensuring a clean UI and smooth responsiveness across devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>

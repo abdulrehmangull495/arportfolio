@@ -47,6 +47,19 @@ body{
     margin-top: 20px;
     color: #e0e0e0;
 }
+.profile h2:hover{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    
+    color: #be9e3d;
+}
+.downloadresume a:hover{
+    color: #be9e3d;
+}
+
+    
+
 .main-content{
     
     border: 1px solid #3a3a3a ;
@@ -54,11 +67,22 @@ body{
     border-radius: 16px;   
     padding: 40px; 
 }
+
 .profile p{
     background-color: #1e1e1e;
     padding: 5px 15px;
     font-size: 0.8rem;
     color: #d6a71a;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.profile p:hover{
+    background-color: #1e1e1e;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    color: #be9e3d;
     border: 1px solid #3a3a3a;
     border-radius: 8px;
     display: inline-block;
