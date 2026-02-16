@@ -118,7 +118,7 @@ function App() {
                 src="https://simpleicons.org/icons/tailwindcss.svg"
                 alt="Tailwindcss"  width={"100px"} height={"100px"}
               />
-              <h3>Tailwindcss</h3>
+              <h3>Tailwind CSS</h3>
             </div>
             <div className="item">
               <img
@@ -228,7 +228,7 @@ function App() {
                 <div className="year">2019-2023</div>
                 <h3 className="degree">Bachelors in Computer Science</h3>
                 <p className="college">
-                  Government Postgraduate College Of Science Faisalabad
+                  Government Postgraduate College Of Science Faisalabad.
                 </p>
                 <p className="work">
                   Focused on Web Development during my studies, especially using
