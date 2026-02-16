@@ -37,7 +37,7 @@ function App() {
             <div className="location">
               <h2 className="label">Location</h2>
               
-              <p className="value">Faisalabad</p>
+              <p className="value">Faisalabad.</p>
             </div>
           </div>
           <div className="social">
