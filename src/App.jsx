@@ -176,8 +176,8 @@ function App() {
                 <div className="card">
                   <h3>Coffee Nest</h3>
                   <p>
-                    I built a fully responsive 3 page website using HTML, CSS
-                    and Bootstrap with a clean UI and smooth experience on all
+                    I built a fully responsive 3 page website using HTML5, CSS3
+                    and Bootstrap5 with a clean UI and smooth experience on all
                     screen sizes.
                   </p>
                   <span>Html5</span>
