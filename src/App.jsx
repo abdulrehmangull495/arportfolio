@@ -78,9 +78,11 @@ function App() {
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              Frontend Developer with 6 months of experience building responsive web interfaces using Reactjs, JavaScript, HTML5 and CSS3.
-               Skilled in Tailwind CSS and Bootstrap 5. BSCS graduate who focuses 
-              on building maintainable UI and solving common frontend challenges like performance and messy code.
+              I’m a Frontend Developer with 6 months of experience building responsive and user friendly web interfaces
+               using Reactjs, JavaScript, HTML5 and CSS3. I also work with Tailwind CSS and Bootstrap 5. As a BSCS graduate,
+                I’ve built landing pages, portfolio sites and modern UI components. I enjoy creating clean,
+               maintainable interfaces and solving common frontend challenges
+                like performance and code structure.
             </p>
           </div>
           {/* skills */}
