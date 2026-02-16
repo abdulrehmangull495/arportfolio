@@ -69,8 +69,9 @@ function App() {
                 About
               </a>
               <a href="#skills">Skills</a>
-              <a href="#education">Education</a>
               <a href="#portfolio">Portfolio</a>
+              <a href="#education">Education</a>
+              
             </nav>
           </div>
           {/* about me */}
