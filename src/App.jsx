@@ -161,8 +161,8 @@ function App() {
                 <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                    Designed and developed a fully responsive BR Architecture landing page using 
-                    HTML5, CSS3 and Bootstrap 5 ensuring a clean UI and smooth responsiveness across devices.
+                    Designed and developed a responsive BR Architecture landing page using HTML5,
+                    CSS3 and Bootstrap 5 with a clean UI across devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
