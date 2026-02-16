@@ -134,7 +134,37 @@ function App() {
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
             <div className="project-container">
-              
+              <div className="project">
+                <a
+                  href="https://brarchitectslandingpage.surge.sh/"
+                  target="_blank">
+                  <img src="brarch.png" alt="brarchitects" width={"100px"} height={"100px"} />
+                </a>
+                <div className="card">
+                  <h3>BR Architecture</h3>
+                  <p>
+                    Designed and developed a responsive BR Architecture landing page using HTML5,
+                    CSS3 and Bootstrap 5 with a clean UI across devices.
+                  </p>
+                  <span>Html5</span>
+                  <span>Css3</span>
+                  <span>Bootstrap5</span>
+                </div>
+              </div>
+               <div className="project">
+                <a href="https://adsliticsdash.vercel.app/" target="_blank">
+                  <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
+                </a>
+                <div className="card">
+                  <h3>Adslitics Dashboard</h3>
+                  <p>
+                    Designed and developed a responsive React.js dashboard with a clean interface and optimized mobile usability.
+                  </p>
+                  <span>React.js</span>
+                  <span>Css3</span>
+                  <span>Bootstrap5</span>
+                </div>
+              </div>
               <div className="project">
                 <a href="https://kitemens.surge.sh/" target="_blank" >
                   <img src="Screenshot 2025-09-24 155923.png" alt="kitmens" width={"100px"} height={"100px"} />
@@ -151,24 +181,8 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </div>
-              <div className="project">
-                <a
-                  href="https://brarchitectslandingpage.surge.sh/"
-                  target="_blank"
-                >
-                  <img src="brarch.png" alt="brarchitects" width={"100px"} height={"100px"} />
-                </a>
-                <div className="card">
-                  <h3>BR Architecture</h3>
-                  <p>
-                    Designed and developed a responsive BR Architecture landing page using HTML5,
-                    CSS3 and Bootstrap 5 with a clean UI across devices.
-                  </p>
-                  <span>Html5</span>
-                  <span>Css3</span>
-                  <span>Bootstrap5</span>
-                </div>
-              </div>
+             
+              
               <div className="project">
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img className="coffee" src="coffee.png" alt="coffee" width={"100px"} height={"100px"} />
@@ -187,20 +201,7 @@ function App() {
               </div>
 
               
-              <div className="project">
-                <a href="https://adsliticsdash.vercel.app/" target="_blank">
-                  <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
-                </a>
-                <div className="card">
-                  <h3>Adslitics Dashboard</h3>
-                  <p>
-                    Designed and developed a responsive React.js dashboard with a clean interface and optimized mobile usability.
-                  </p>
-                  <span>React.js</span>
-                  <span>Css3</span>
-                  <span>Bootstrap5</span>
-                </div>
-              </div>
+              
               <div className="project">
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img className="ads" src="inkomoko.png" alt="inkomoko" width={"100px"} height={"100px"}/>
