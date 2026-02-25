@@ -134,6 +134,21 @@ function App() {
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
             <div className="project-container">
+              
+               <div className="project">
+                <a href="https://adsliticsdash.vercel.app/" target="_blank">
+                  <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
+                </a>
+                <div className="card">
+                  <h3>Adslitics Dashboard</h3>
+                  <p>
+                    Designed and developed a responsive React.js dashboard with a clean interface and optimized mobile usability.
+                  </p>
+                  <span>React.js</span>
+                  <span>Css3</span>
+                  <span>Bootstrap5</span>
+                </div>
+              </div>
               <div className="project">
                 <a
                   href="https://brarchitectslandingpage.surge.sh/"
@@ -147,20 +162,6 @@ function App() {
                     CSS3 and Bootstrap 5 with a clean UI across devices.
                   </p>
                   <span>Html5</span>
-                  <span>Css3</span>
-                  <span>Bootstrap5</span>
-                </div>
-              </div>
-               <div className="project">
-                <a href="https://adsliticsdash.vercel.app/" target="_blank">
-                  <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
-                </a>
-                <div className="card">
-                  <h3>Adslitics Dashboard</h3>
-                  <p>
-                    Designed and developed a responsive React.js dashboard with a clean interface and optimized mobile usability.
-                  </p>
-                  <span>React.js</span>
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
