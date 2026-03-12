@@ -8,16 +8,25 @@ function App() {
         {/* sidebar */}
         <aside className="sidebar">
           <div className="profile">
-
-            <img src="abdul rehman.png" alt="Abdul Rehman" width="100" height="100" style={{ objectFit: 'cover' }} />
-
+            <img
+              src="abdul rehman.png"
+              alt="Abdul Rehman"
+              width="100"
+              height="100"
+              style={{ objectFit: "cover" }}
+            />
 
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
 
             <div className="downloadresume">
-              <a href="/Abdul Rehman Gull Frontend Developer Resume.pdf" target="_blank" className="cv">
-                Download Resume</a>
+              <a
+                href="/Abdul Rehman Gull Frontend Developer Resume.pdf"
+                target="_blank"
+                className="cv"
+              >
+                Download Resume
+              </a>
             </div>
           </div>
 
@@ -36,27 +45,45 @@ function App() {
             </div>
             <div className="location">
               <h2 className="label">Location</h2>
-              
+
               <p className="value">Faisalabad.</p>
             </div>
           </div>
           <div className="social">
             <h3 className="contactme">Contact me</h3>
-            <a href="https://www.facebook.com/profile.php?id=100028939350475"
-              target="_blank"  aria-label="Facebook profile" >
-              
-              <img src="facebook.svg" alt="facebook" width={"100px"} height={"100px"}  />
+            <a
+              href="https://www.facebook.com/profile.php?id=100028939350475"
+              target="_blank"
+              aria-label="Facebook profile"
+            >
+              <img
+                src="facebook.svg"
+                alt="facebook"
+                width={"100px"}
+                height={"100px"}
+              />
             </a>
 
-            <a href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
-              target="_blank"  aria-label="Whatsapp profile">
+            <a
+              href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
+              target="_blank"
+              aria-label="Whatsapp profile"
+            >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
-                alt="linkedin"  aria-label="linkedin profile"
-                width={"100px"} height={"100px"}/>
+                alt="linkedin"
+                aria-label="linkedin profile"
+                width={"100px"}
+                height={"100px"}
+              />
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
-              <img src="what.png" alt="whatsapp"   width={"100px"} height={"100px"} />
+              <img
+                src="what.png"
+                alt="whatsapp"
+                width={"100px"}
+                height={"100px"}
+              />
             </a>
           </div>
         </aside>
@@ -71,7 +98,6 @@ function App() {
               <a href="#skills">Skills</a>
               <a href="#portfolio">Portfolio</a>
               <a href="#education">Education</a>
-              
             </nav>
           </div>
           {/* about me */}
@@ -79,11 +105,11 @@ function App() {
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              I’m a Frontend Developer with 6 months of experience building responsive and user friendly web interfaces
-               using Reactjs, JavaScript, HTML5 and CSS3. I also work with Tailwind CSS and Bootstrap 5. As a BSCS graduate,
-                I’ve built landing pages, portfolio sites and modern UI components. I enjoy creating clean,
-               maintainable interfaces and solving common frontend challenges
-                like performance and code structure.
+              Frontend Developer with 6+ months of experience building
+              responsive and modern user interfaces using React.js and
+              JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap 5,
+              with hands-on experience developing reusable components and
+              mobile-first designs. Passionate about building clean, scalable and user-friendly web applications.
             </p>
           </div>
           {/* skills */}
@@ -92,87 +118,130 @@ function App() {
           <div className="line"></div>
           <div className="grid-container">
             <div className="item">
-              <img src="https://simpleicons.org/icons/html5.svg" alt="HTML5"  width={"100px"} height={"100px"} />
+              <img
+                src="https://simpleicons.org/icons/html5.svg"
+                alt="HTML5"
+                width={"100px"}
+                height={"100px"}
+              />
               <h3>HTML5</h3>
             </div>
             <div className="item">
-              <img src="https://simpleicons.org/icons/css.svg" alt="CSS3"  width={"100px"} height={"100px"} />
+              <img
+                src="https://simpleicons.org/icons/css.svg"
+                alt="CSS3"
+                width={"100px"}
+                height={"100px"}
+              />
               <h3>CSS3</h3>
             </div>
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/javascript.svg"
-                alt="JavaScript"  width={"100px"} height={"100px"}
+                alt="JavaScript"
+                width={"100px"}
+                height={"100px"}
               />
               <h3>JavaScript</h3>
             </div>
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/bootstrap.svg"
-                alt="Bootstrap5"  width={"100px"} height={"100px"}
+                alt="Bootstrap5"
+                width={"100px"}
+                height={"100px"}
               />
               <h3>Bootstrap5</h3>
             </div>
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/tailwindcss.svg"
-                alt="Tailwindcss"  width={"100px"} height={"100px"}
+                alt="Tailwindcss"
+                width={"100px"}
+                height={"100px"}
               />
               <h3>Tailwind CSS</h3>
             </div>
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/react.svg"
-                alt="Reactjs"  width={"100px"} height={"100px"}
+                alt="Reactjs"
+                width={"100px"}
+                height={"100px"}
               />
               <h3>Reactjs</h3>
             </div>
           </div>
-          
+
           {/* portfolio */}
           <div id="portfolio">
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
             <div className="project-container">
               <div className="project">
-                <a href="https://reactjs-school-management.vercel.app/" target="_blank">
-                  <img className="ads" src="building.png" alt="schoolmanagemant" width={"100px"} height={"100px"} />
+                <a
+                  href="https://reactjs-school-management.vercel.app/"
+                  target="_blank"
+                >
+                  <img
+                    className="ads"
+                    src="building.png"
+                    alt="schoolmanagemant"
+                    width={"100px"}
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Bright School Management</h3>
-                  <p>A responsive school website built with React.js and CSS3, featuring a navbar, admission page, about section, and mobile-friendly layout.
+                  <p>
+                    A responsive school website built with React.js and CSS3,
+                    featuring a navbar, admission page, about section, and
+                    mobile-friendly layout.
                   </p>
                   <span>React.js</span>
                   <span>CSS3</span>
-                  
                 </div>
               </div>
-               <div className="project">
+              <div className="project">
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
-                  <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
+                  <img
+                    className="ads"
+                    src="adsl.png"
+                    alt="adsliticsdashboard"
+                    width={"100px"}
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
                   <p>
-                    Designed and developed a responsive React.js dashboard with a clean interface and optimized mobile usability.
+                    Designed and developed a responsive React.js dashboard with
+                    a clean interface and optimized mobile usability.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
               </div>
-               
+
               <div className="project">
                 <a
                   href="https://brarchitectslandingpage.surge.sh/"
-                  target="_blank">
-                  <img src="brarch.png" alt="brarchitects" width={"100px"} height={"100px"} />
+                  target="_blank"
+                >
+                  <img
+                    src="brarch.png"
+                    alt="brarchitects"
+                    width={"100px"}
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                    Designed and developed a responsive BR Architecture landing page using HTML5,
-                    CSS3 and Bootstrap 5 with a clean UI across devices.
+                    Designed and developed a responsive BR Architecture landing
+                    page using HTML5, CSS3 and Bootstrap 5 with a clean UI
+                    across devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -180,26 +249,37 @@ function App() {
                 </div>
               </div>
               <div className="project">
-                <a href="https://kitemens.surge.sh/" target="_blank" >
-                  <img src="Screenshot 2025-09-24 155923.png" alt="kitmens" width={"100px"} height={"100px"} />
+                <a href="https://kitemens.surge.sh/" target="_blank">
+                  <img
+                    src="Screenshot 2025-09-24 155923.png"
+                    alt="kitmens"
+                    width={"100px"}
+                    height={"100px"}
+                  />
                 </a>
 
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
-                Built a fully responsive Kitemens landing page 
-                using HTML5, CSS3 and Bootstrap 5 focusing on modern layout and mobile-friendly design.
+                    Built a fully responsive Kitemens landing page using HTML5,
+                    CSS3 and Bootstrap 5 focusing on modern layout and
+                    mobile-friendly design.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
               </div>
-             
-              
+
               <div className="project">
                 <a href="https://coffeenest.surge.sh/" target="_blank">
-                  <img className="coffee" src="coffee.png" alt="coffee" width={"100px"} height={"100px"} />
+                  <img
+                    className="coffee"
+                    src="coffee.png"
+                    alt="coffee"
+                    width={"100px"}
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
@@ -214,18 +294,23 @@ function App() {
                 </div>
               </div>
 
-              
-              
               <div className="project">
                 <a href="https://inkomoko.surge.sh/" target="_blank">
-                  <img className="ads" src="inkomoko.png" alt="inkomoko" width={"100px"} height={"100px"}/>
+                  <img
+                    className="ads"
+                    src="inkomoko.png"
+                    alt="inkomoko"
+                    width={"100px"}
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
                   <p>
-                    Created a responsive Inkomoko dashboard using HTML5, CSS3 and Bootstrap 5.
-                        Ensured a clean design, structured components and consistent performance across desktop, 
-                        tablet and mobile devices.
+                    Created a responsive Inkomoko dashboard using HTML5, CSS3
+                    and Bootstrap 5. Ensured a clean design, structured
+                    components and consistent performance across desktop, tablet
+                    and mobile devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -253,12 +338,10 @@ function App() {
                 <div className="goal"></div>
               </div>
 
-           
               <div className="liner"></div>
             </div>
           </div>
         </div>
-        
       </main>
     </>
   );
