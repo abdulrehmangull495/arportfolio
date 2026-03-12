@@ -134,7 +134,19 @@ function App() {
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
             <div className="project-container">
-              
+              <div className="project">
+                <a href="https://reactjs-school-management.vercel.app/" target="_blank">
+                  <img className="ads" src="building.png" alt="schoolmanagemant" width={"100px"} height={"100px"} />
+                </a>
+                <div className="card">
+                  <h3>Bright School Management</h3>
+                  <p>A responsive school website built with React.js and CSS3, featuring a navbar, admission page, about section, and mobile-friendly layout.
+                  </p>
+                  <span>React.js</span>
+                  <span>CSS3</span>
+                  
+                </div>
+              </div>
                <div className="project">
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img className="ads" src="adsl.png" alt="adsliticsdashboard" width={"100px"} height={"100px"} />
@@ -149,19 +161,7 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </div>
-               <div className="project">
-                <a href="https://reactjs-school-management.vercel.app/" target="_blank">
-                  <img className="ads" src="building.png" alt="schoolmanagemant" width={"100px"} height={"100px"} />
-                </a>
-                <div className="card">
-                  <h3>Bright School Management</h3>
-                  <p>A responsive school website built with React.js and CSS3, featuring a navbar, admission page, about section, and mobile-friendly layout.
-                  </p>
-                  <span>React.js</span>
-                  <span>CSS3</span>
-                  
-                </div>
-              </div>
+               
               <div className="project">
                 <a
                   href="https://brarchitectslandingpage.surge.sh/"
