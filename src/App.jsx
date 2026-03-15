@@ -185,7 +185,7 @@ function App() {
                 >
                   <img
                     className="ads"
-                    src="building.png"
+                    src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
                     height={"100px"}
