@@ -226,7 +226,7 @@ function App() {
 
               <div className="project">
                 <a
-                  href="https://brarchitectslandingpage.surge.sh/"
+                  href="https://brarchitct.surge.sh/"
                   target="_blank"
                 >
                   <img
