@@ -180,7 +180,7 @@ function App() {
             <div className="project-container">
               <div className="project">
                 <a
-                  href="https://apex-school-system.vercel.app/"
+                  href="https://apex-school-ten.vercel.app/"
                   target="_blank"
                 >
                   <img
