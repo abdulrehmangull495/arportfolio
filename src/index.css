@@ -155,39 +155,26 @@ body{
 /* maincontent */
 
 /* navbar */
-#navigation {
-    /* padding: 30px 40px; */
-    
+#navigation {  
      margin-bottom: 10px;
      padding-bottom: 15px;
       border-bottom: 2px solid #3a3a3a;
-    
-
 }
  nav{
     
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-  
-    /* font-size:40px ; */
  }
  nav a{
     text-decoration: none;
     color: #a0a0a0;
     font-weight: 500;
     transition: color 0.3 ease;
-     
-
  }
  .active, nav a:hover{
     color: #ffbf00;
  }
- /* nav a:hover{
-    
-    color:  #ffbf00;
-    
- } */
 
  /* about me */
 
@@ -197,12 +184,10 @@ body{
     color: #e0e0e0;
  }
  .line{
-    /* border-bottom: 10px solid #ffbf00; */
     width: 60px;
     height: 5px;
     margin-bottom: 15px;
     background-color: #ffbf00;
-
  }
  .content{
     text-align: justify;
@@ -211,7 +196,6 @@ body{
 
  #about{
     margin-bottom: 30px;
-    /* font-size: 1.2rem; */
  }
 
  .headingabout{
@@ -236,7 +220,6 @@ body{
     border: 2px solid #3a3a3a;
     text-align: center;
     margin-top: 20px;
-    /* transition: transform 0.3 ease, box-shadow 0.3s ease; */
  }
  .item img{
     width: 25px;

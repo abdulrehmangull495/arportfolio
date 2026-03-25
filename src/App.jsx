@@ -59,8 +59,7 @@ function App() {
               <img
                 src="facebook.svg"
                 alt="facebook"
-                width={"100px"}
-                height={"100px"}
+                
               />
             </a>
 
@@ -73,16 +72,14 @@ function App() {
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
                 aria-label="linkedin profile"
-                width={"100px"}
-                height={"100px"}
+               
               />
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
               <img
                 src="what.png"
                 alt="whatsapp"
-                width={"100px"}
-                height={"100px"}
+                
               />
             </a>
           </div>
