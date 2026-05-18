@@ -286,7 +286,6 @@ nav a:hover {
   bottom: 0px;
   left: 5px;
 }
-
 .headingportfolio {
   font-size: 1.2rem;
   margin-bottom: 15px;
@@ -310,15 +309,13 @@ nav a:hover {
   border: 1px solid #3a3a3a;
   border-radius: 12px;
   overflow: hidden;
-  transition:
-    transform 0.5s ease,
+  transition: transform 0.5s ease,
     box-shadow 0.5s ease;
 }
 .project:hover {
   transform: translateY(-5px);
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
-
 .card {
   padding: 20px;
 }
@@ -358,7 +355,6 @@ nav a:hover {
     grid-template-columns: 1fr;
     padding: 20px;
   }
-
   .sidebar {
     position: static;
     height: auto;
@@ -376,14 +372,12 @@ nav a:hover {
   .sidebar {
     margin: 5px;
   }
-
   .project-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
     margin-top: 30px;
   }
-
   .main-content {
     padding: 10px;
   }
@@ -399,14 +393,12 @@ nav a:hover {
   .sidebar {
     margin: 5px;
   }
-
   .project-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
     margin-top: 30px;
   }
-
   .main-content {
     padding: 10px;
   }

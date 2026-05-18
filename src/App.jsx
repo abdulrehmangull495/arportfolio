@@ -104,7 +104,7 @@ function App() {
             <p className="content">
               Frontend Developer with 6+ months of experience building
               responsive and modern user interfaces using React.js and
-              JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap 5,
+              JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap5,
               with hands-on experience developing reusable components and
               mobile-first designs. Passionate about building clean, scalable and user-friendly web applications.
             </p>
