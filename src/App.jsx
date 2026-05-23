@@ -141,6 +141,15 @@ function App() {
               />
               <h3>JavaScript</h3>
             </div>
+             <div className="item">
+              <img
+                src="https://simpleicons.org/icons/tailwindcss.svg"
+                alt="Tailwindcss"
+                width={"100px"}
+                height={"100px"}
+              />
+              <h3>Tailwind CSS</h3>
+            </div>
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/bootstrap.svg"
@@ -150,15 +159,7 @@ function App() {
               />
               <h3>Bootstrap5</h3>
             </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/tailwindcss.svg"
-                alt="Tailwindcss"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Tailwind CSS</h3>
-            </div>
+           
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/react.svg"
