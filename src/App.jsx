@@ -192,9 +192,8 @@ function App() {
                 <div className="card">
                   <h3>Apex School Management</h3>
                   <p>
-                    A responsive school website built with React.js and CSS3,
-                    featuring a navbar, admission page, about section and
-                    mobile-friendly layout.
+                    A responsive school management website built with React.js and CSS3,
+                     featuring admission page, about section and a mobile friendly layout with smooth navigation
                   </p>
                   <span>React.js</span>
                   <span>CSS3</span>
@@ -213,8 +212,8 @@ function App() {
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
                   <p>
-                    Designed and developed a responsive React.js dashboard with
-                    a clean interface and optimized mobile usability.
+                    A responsive React.js dashboard with a clean interface, reusable components 
+                    and optimized layout for better mobile and desktop usability.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
@@ -237,8 +236,8 @@ function App() {
                 <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                    Built a responsive BR Architecture landing page using HTML5, CSS3 and Bootstrap 5 with a clean,
-                     modern design optimized for all screen sizes and smooth user experience.
+                   Built a fully responsive architecture landing page using HTML5, 
+                   CSS3 and Bootstrap 5 with a modern layout and smooth user experience across all devices. 
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -258,8 +257,8 @@ function App() {
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
-                    Developed a fully responsive Kitemens landing page using HTML5, CSS3
-                     and Bootstrap 5 with a modern layout, smooth navigation flow and mobile friendly user experience.
+                    Developed a fully responsive landing page using HTML5, CSS3 
+                    and Bootstrap 5 with a modern layout and mobile friendly design.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -280,8 +279,9 @@ function App() {
                 <div className="card">
                   <h3>Coffee Nest</h3>
                   <p>
-                    I built a fully responsive 3 page website using HTML5,
-                     CSS3 and Bootstrap 5 with a clean UI and smooth user experience across all screen sizes.
+                   Built a responsive multi page 
+                   website using HTML5, CSS3 and Bootstrap 5 with a clean UI and smooth 
+                   navigation across all screen sizes.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -302,8 +302,9 @@ function App() {
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
                   <p>
-                   Created a responsive Inkomoko dashboard using HTML5, CSS3, and Bootstrap 5 with a clean design,
-                    structured components and consistent performance across desktop, tablet and mobile devices.
+                 Created a responsive dashboard using HTML5, CSS3 
+                 and Bootstrap 5 with structured 
+                 components and consistent performance across desktop, tablet and mobile devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
