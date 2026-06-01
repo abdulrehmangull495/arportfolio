@@ -302,9 +302,8 @@ function App() {
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
                   <p>
-                 Created a responsive dashboard using HTML5, CSS3 
-                 and Bootstrap 5 with structured 
-                 components and consistent performance across desktop, tablet and mobile devices.
+                 Developed a responsive dashboard using HTML5, CSS3 
+                 and Bootstrap 5 with well structured components and consistent performance across all devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
