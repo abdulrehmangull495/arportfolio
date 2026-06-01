@@ -258,9 +258,8 @@ function App() {
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
-                    Built a fully responsive Kitemens landing page using HTML5,
-                    CSS3 and Bootstrap 5 focusing on modern layout and
-                    mobile-friendly design.
+                    Developed a fully responsive Kitemens landing page using HTML5, CSS3
+                     and Bootstrap 5 with a modern layout, smooth navigation flow and mobile friendly user experience.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
