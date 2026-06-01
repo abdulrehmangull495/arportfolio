@@ -193,7 +193,7 @@ function App() {
                   <h3>Apex School Management</h3>
                   <p>
                     A responsive school management website built with React.js and CSS3,
-                     featuring admission page, about section and a mobile friendly layout with smooth navigation
+                     featuring admission page, about section and a mobile friendly layout with smooth navigation.
                   </p>
                   <span>React.js</span>
                   <span>CSS3</span>
