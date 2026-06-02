@@ -213,7 +213,7 @@ function App() {
                   <h3>Adslitics Dashboard</h3>
                   <p>
                    Developed a responsive React.js dashboard featuring reusable components,
-                    a clean user interface, and an optimized layout for seamless mobile and desktop experiences.
+                    a clean user interface and an optimized layout for seamless mobile and desktop experiences.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
@@ -237,7 +237,7 @@ function App() {
                   <h3>BR Architecture</h3>
                   <p>
                    Built a fully responsive architecture landing page using HTML5, 
-                   CSS3 and Bootstrap 5 with a modern layout and smooth user experience across all devices. 
+                   CSS3 & Bootstrap 5 with a modern layout and smooth user experience across all devices. 
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
