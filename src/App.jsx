@@ -212,8 +212,8 @@ function App() {
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
                   <p>
-                    A responsive React.js dashboard with a clean interface, reusable components 
-                    and optimized layout for better mobile and desktop usability.
+                   Developed a responsive React.js dashboard featuring reusable components,
+                    a clean user interface, and an optimized layout for seamless mobile and desktop experiences.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
@@ -303,7 +303,8 @@ function App() {
                   <h3>Inkomoko Dashboard</h3>
                   <p>
                  Developed a responsive dashboard using HTML5, CSS3 
-                 and Bootstrap 5 with well structured components and consistent performance across all devices.
+                 and Bootstrap 5 with well structured components and
+                  consistent performance across all devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
