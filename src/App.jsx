@@ -313,6 +313,58 @@ function App() {
               </div>
             </div>
           </div>
+          <div id="portfolio">
+            <h1 className="headingportfolio">Certification</h1>
+            <div className="line"></div>
+            <div className="project-container">
+              <div className="project">
+                <a
+                  href="https://apex-school-ten.vercel.app/"
+                  target="_blank"
+                >
+                  <img
+                    className="ads"
+                    src="apexbuilding.png"
+                    alt="schoolmanagemant"
+                    width={"100px"}
+                    height={"100px"}
+                  />
+                </a>
+                <div className="card">
+                  <h3>Apex School Management</h3>
+                  <p>
+                    A responsive school management website built with React.js and CSS3,
+                     featuring admission page, about section and a mobile friendly layout with smooth navigation.
+                  </p>
+                  <span>React.js</span>
+                  <span>CSS3</span>
+                </div>
+              </div>
+              <div className="project">
+                <a href="https://adsliticsdash.vercel.app/" target="_blank">
+                  <img
+                    className="ads"
+                    src="adsl.png"
+                    alt="adsliticsdashboard"
+                    width={"100px"}
+                    height={"100px"}
+                  />
+                </a>
+                <div className="card">
+                  <h3>Adslitics Dashboard</h3>
+                  <p>
+                   Developed a responsive React.js dashboard featuring reusable components,
+                    a clean user interface and an optimized layout for seamless mobile and desktop experiences.
+                  </p>
+                  <span>React.js</span>
+                  <span>Css3</span>
+                  <span>Bootstrap5</span>
+                </div>
+              </div>
+
+            
+            </div>
+          </div>
           {/* education */}
           <div id="education">
             <h2 className="headingeducation">Education</h2>
@@ -333,6 +385,7 @@ function App() {
               </div>
 
               <div className="liner"></div>
+
             </div>
           </div>
         </div>
