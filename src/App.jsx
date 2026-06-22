@@ -21,7 +21,7 @@ function App() {
 
             <div className="downloadresume">
               <a
-                href="/Abdul Rehman Gull Frontend Developer Reactjs Resume.pdf"
+                href="/Abdul Rehman Gull Frontend Developer.pdf"
                 target="_blank"
                 className="cv"
               >
