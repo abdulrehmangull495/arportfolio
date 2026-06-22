@@ -171,7 +171,7 @@ function App() {
             </div>
           </div>
 
-          {/* portfolio */}
+          {/* Certifications */}
           <div id="portfolio">
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
@@ -313,7 +313,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div id="portfolio">
+          {/* <div id="portfolio">
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
@@ -364,7 +364,7 @@ function App() {
 
             
             </div>
-          </div>
+          </div> */}
           {/* education */}
           <div id="education">
             <h2 className="headingeducation">Education</h2>
