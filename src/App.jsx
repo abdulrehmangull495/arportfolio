@@ -313,31 +313,30 @@ function App() {
               </div>
             </div>
           </div>
-          {/* <div id="portfolio">
+          <div id="portfolio">
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
               <div className="project">
-                <a
+                {/* <a
                   href="https://apex-school-ten.vercel.app/"
-                  target="_blank"
-                >
-                  <img
+                  target="_blank">
+                 
+                </a> */}
+                 <img
                     className="ads"
-                    src="apexbuilding.png"
+                    src="/Reactjs certification.png"
                     alt="schoolmanagemant"
-                    width={"100px"}
-                    height={"100px"}
+                    width={"70px"}
+                    height={"70px"}
                   />
-                </a>
                 <div className="card">
-                  <h3>Apex School Management</h3>
+                  <h3>Reactjs Certification</h3>
                   <p>
                     A responsive school management website built with React.js and CSS3,
                      featuring admission page, about section and a mobile friendly layout with smooth navigation.
                   </p>
                   <span>React.js</span>
-                  <span>CSS3</span>
                 </div>
               </div>
               <div className="project">
@@ -364,7 +363,7 @@ function App() {
 
             
             </div>
-          </div> */}
+          </div>
           {/* education */}
           <div id="education">
             <h2 className="headingeducation">Education</h2>
