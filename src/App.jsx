@@ -56,11 +56,7 @@ function App() {
               target="_blank"
               aria-label="Facebook profile"
             >
-              <img
-                src="facebook.svg"
-                alt="facebook"
-                
-              />
+              <img src="facebook.svg" alt="facebook" />
             </a>
 
             <a
@@ -72,15 +68,10 @@ function App() {
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
                 aria-label="linkedin profile"
-               
               />
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
-              <img
-                src="what.png"
-                alt="whatsapp"
-                
-              />
+              <img src="what.png" alt="whatsapp" />
             </a>
           </div>
         </aside>
@@ -106,7 +97,8 @@ function App() {
               responsive and modern user interfaces using React.js and
               JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap5,
               with hands-on experience developing reusable components and
-              mobile-first designs. Passionate about building clean, scalable and user-friendly web applications.
+              mobile-first designs. Passionate about building clean, scalable
+              and user-friendly web applications.
             </p>
           </div>
           {/* skills */}
@@ -141,7 +133,7 @@ function App() {
               />
               <h3>JavaScript</h3>
             </div>
-             <div className="item">
+            <div className="item">
               <img
                 src="https://simpleicons.org/icons/tailwindcss.svg"
                 alt="Tailwindcss"
@@ -159,7 +151,7 @@ function App() {
               />
               <h3>Bootstrap5</h3>
             </div>
-           
+
             <div className="item">
               <img
                 src="https://simpleicons.org/icons/react.svg"
@@ -177,10 +169,7 @@ function App() {
             <div className="line"></div>
             <div className="project-container">
               <div className="project">
-                <a
-                  href="https://apex-school-ten.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="apexbuilding.png"
@@ -192,8 +181,9 @@ function App() {
                 <div className="card">
                   <h3>Apex School Management</h3>
                   <p>
-                    A responsive school management website built with React.js and CSS3,
-                     featuring admission page, about section and a mobile friendly layout with smooth navigation.
+                    A responsive school management website built with React.js
+                    and CSS3, featuring admission page, about section and a
+                    mobile friendly layout with smooth navigation.
                   </p>
                   <span>React.js</span>
                   <span>CSS3</span>
@@ -212,8 +202,9 @@ function App() {
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
                   <p>
-                   Developed a responsive React.js dashboard featuring reusable components,
-                    a clean user interface and an optimized layout for seamless mobile and desktop experiences.
+                    Developed a responsive React.js dashboard featuring reusable
+                    components, a clean user interface and an optimized layout
+                    for seamless mobile and desktop experiences.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
@@ -222,10 +213,7 @@ function App() {
               </div>
 
               <div className="project">
-                <a
-                  href="https://brarchitct.surge.sh/"
-                  target="_blank"
-                >
+                <a href="https://brarchitct.surge.sh/" target="_blank">
                   <img
                     src="brarch.png"
                     alt="brarchitects"
@@ -236,8 +224,9 @@ function App() {
                 <div className="card">
                   <h3>BR Architecture</h3>
                   <p>
-                   Built a fully responsive architecture landing page using HTML5, 
-                   CSS3 & Bootstrap 5 with a modern layout and smooth user experience across all devices. 
+                    Built a fully responsive architecture landing page using
+                    HTML5, CSS3 & Bootstrap 5 with a modern layout and smooth
+                    user experience across all devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -257,8 +246,9 @@ function App() {
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
-                    Developed a fully responsive landing page using HTML5, CSS3 
-                    and Bootstrap 5 with a modern layout and mobile friendly design.
+                    Developed a fully responsive landing page using HTML5, CSS3
+                    and Bootstrap 5 with a modern layout and mobile friendly
+                    design.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -279,9 +269,9 @@ function App() {
                 <div className="card">
                   <h3>Coffee Nest</h3>
                   <p>
-                   Built a responsive multi page 
-                   website using HTML5, CSS3 and Bootstrap 5 with a clean UI and smooth 
-                   navigation across all screen sizes.
+                    Built a responsive multi page website using HTML5, CSS3 and
+                    Bootstrap 5 with a clean UI and smooth navigation across all
+                    screen sizes.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -302,9 +292,9 @@ function App() {
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
                   <p>
-                 Developed a responsive dashboard using HTML5, CSS3 
-                 and Bootstrap 5 with well structured components and
-                  consistent performance across all devices.
+                    Developed a responsive dashboard using HTML5, CSS3 and
+                    Bootstrap 5 with well structured components and consistent
+                    performance across all devices.
                   </p>
                   <span>Html5</span>
                   <span>Css3</span>
@@ -323,23 +313,25 @@ function App() {
                   target="_blank">
                  
                 </a> */}
-                 <img
-                    className="ads"
-                    src="/Reactjs certification.png"
-                    alt="schoolmanagemant"
-                    width={"70px"}
-                    height={"70px"}
-                  />
+                <img
+                  className="ads"
+                  src="/Reactjs certification.png"
+                  alt="schoolmanagemant"
+                  width={"70px"}
+                  height={"70px"}
+                />
                 <div className="card">
                   <h3>Reactjs Certification</h3>
                   <p>
-                    A responsive school management website built with React.js and CSS3,
-                     featuring admission page, about section and a mobile friendly layout with smooth navigation.
+                    React.js Certificate of Completion W3Schools· Issued June
+                    2024 Passed W3Schools' React exams and earned the Certified
+                    React Developer credential, demonstrating fundamental
+                    knowledge of web development using the React Framework.
                   </p>
                   <span>React.js</span>
                 </div>
               </div>
-              <div className="project">
+              {/* <div className="project">
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img
                     className="ads"
@@ -352,16 +344,15 @@ function App() {
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
                   <p>
-                   Developed a responsive React.js dashboard featuring reusable components,
-                    a clean user interface and an optimized layout for seamless mobile and desktop experiences.
+                    Developed a responsive React.js dashboard featuring reusable
+                    components, a clean user interface and an optimized layout
+                    for seamless mobile and desktop experiences.
                   </p>
                   <span>React.js</span>
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
-              </div>
-
-            
+              </div> */}
             </div>
           </div>
           {/* education */}
@@ -384,7 +375,6 @@ function App() {
               </div>
 
               <div className="liner"></div>
-
             </div>
           </div>
         </div>
