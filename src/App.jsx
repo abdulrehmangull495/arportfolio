@@ -13,8 +13,7 @@ function App() {
               alt="Abdul Rehman"
               width="100"
               height="100"
-              style={{ objectFit: "cover" }}
-            />
+              style={{ objectFit: "cover" }}/>
 
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
@@ -331,28 +330,7 @@ function App() {
                   <span>React.js</span>
                 </div>
               </div>
-              {/* <div className="project">
-                <a href="https://adsliticsdash.vercel.app/" target="_blank">
-                  <img
-                    className="ads"
-                    src="adsl.png"
-                    alt="adsliticsdashboard"
-                    width={"100px"}
-                    height={"100px"}
-                  />
-                </a>
-                <div className="card">
-                  <h3>Adslitics Dashboard</h3>
-                  <p>
-                    Developed a responsive React.js dashboard featuring reusable
-                    components, a clean user interface and an optimized layout
-                    for seamless mobile and desktop experiences.
-                  </p>
-                  <span>React.js</span>
-                  <span>Css3</span>
-                  <span>Bootstrap5</span>
-                </div>
-              </div> */}
+              
             </div>
           </div>
           {/* education */}
