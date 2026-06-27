@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import "./index.css";
+import ScrollToTop from "./ScrollToTop";
 function App() {
   return (
     <>
@@ -356,6 +357,7 @@ function App() {
             </div>
           </div>
         </div>
+        <ScrollToTop/>
       </main>
     </>
   );
