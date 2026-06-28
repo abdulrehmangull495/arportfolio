@@ -326,7 +326,7 @@ nav a:hover {
 .card h3 {
   color: #e0e0e0;
   margin-bottom: 10px;
-  font-size: 17px;
+  font-size: 40px;
 }
 .card p {
   font-size: 13px;
@@ -348,6 +348,8 @@ nav a:hover {
   height: 180px;
   object-fit: contain;
 }
+
+
 @media screen and (max-width: 1200px) {
   .main-container {
     grid-template-columns: 1fr;

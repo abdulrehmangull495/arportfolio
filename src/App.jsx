@@ -78,6 +78,7 @@ function App() {
         {/*  main content */}
         <div className="main-content">
           {/* navigation */}
+          
           <div id="navigation">
             <nav>
               <a href="#about" className="active">
