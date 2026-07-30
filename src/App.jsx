@@ -174,8 +174,8 @@ function App() {
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
-                    src="apexbuilding.png"
-                    alt="schoolmanagemant"
+                    src="hero section.png"
+                    alt="arecom"
                     width={"100px"}
                     height={"100px"}
                   />
