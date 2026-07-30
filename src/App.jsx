@@ -14,7 +14,8 @@ function App() {
               alt="Abdul Rehman"
               width="100"
               height="100"
-              style={{ objectFit: "cover" }}/>
+              style={{ objectFit: "cover" }}
+            />
 
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
@@ -78,7 +79,7 @@ function App() {
         {/*  main content */}
         <div className="main-content">
           {/* navigation */}
-          
+
           <div id="navigation">
             <nav>
               <a href="#about" className="active">
@@ -169,6 +170,29 @@ function App() {
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
             <div className="project-container">
+              <div className="project">
+                <a href="https://apex-school-ten.vercel.app/" target="_blank">
+                  <img
+                    className="ads"
+                    src="apexbuilding.png"
+                    alt="schoolmanagemant"
+                    width={"100px"}
+                    height={"100px"}
+                  />
+                </a>
+                <div className="card">
+                  <h3>Arecom | React.js E Commerce Frontend</h3>
+                  <p>
+                    Built a responsive e commerce frontend using React.js,
+                    HTML5, CSS3, and JavaScript. 
+                    Implemented product listing,
+                    search functionality, dark mode, reusable React components,
+                    and React Router for seamless navigation.
+                  </p>
+                  <span>React.js</span>
+                  <span>CSS3</span>
+                </div>
+              </div>
               <div className="project">
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
@@ -332,7 +356,6 @@ function App() {
                   <span>React.js</span>
                 </div>
               </div>
-              
             </div>
           </div>
           {/* education */}
@@ -358,7 +381,7 @@ function App() {
             </div>
           </div>
         </div>
-        <ScrollToTop/>
+        <ScrollToTop />
       </main>
     </>
   );
