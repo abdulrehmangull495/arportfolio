@@ -190,6 +190,8 @@ function App() {
                     and React Router for seamless navigation.
                   </p>
                   <span>React.js</span>
+                  <span>JavaScript</span>
+                  <span>Bootstrap 5</span>
                   <span>CSS3</span>
                 </div>
               </div>
