@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { motion } from "framer-motion";
 import "./index.css";
 import ScrollToTop from "./ScrollToTop";
 function App() {
@@ -7,9 +7,29 @@ function App() {
     <>
       <main className="main-container">
         {/* sidebar */}
-        <aside className="sidebar">
-          <div className="profile">
-            <img
+        <motion.aside
+          className="sidebar"
+          initial="hidden"
+          animate="show"
+          variants={{
+            hidden: {},
+            show: { transition: { staggerChildren: 0.15 } },
+          }}
+        >
+          <motion.div
+            className="profile"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              show: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.5, ease: "easeOut" },
+              },
+            }}
+          >
+            <motion.img
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
               src="abdul rehman.png"
               alt="Abdul Rehman"
               width="100"
@@ -29,9 +49,19 @@ function App() {
                 Download Resume
               </a>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="contact">
+          <motion.div
+            className="contact"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              show: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.5, ease: "easeOut" },
+              },
+            }}
+          >
             <div className="mail">
               <h2 className="label">Email</h2>
               <a className="value" href="mailto:abdulrehmangull495@gmail.com">
@@ -49,8 +79,13 @@ function App() {
 
               <p className="value">Faisalabad.</p>
             </div>
-          </div>
-          <div className="social">
+          </motion.div>
+          <motion.div
+            className="social"
+            initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0 }}
+            animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}
+          >
             <h3 className="contactme">Contact me</h3>
             <a
               href="https://www.facebook.com/profile.php?id=100028939350475"
@@ -74,13 +109,25 @@ function App() {
             <a href="https://wa.me/923141458867" target="_blank">
               <img src="what.png" alt="whatsapp" />
             </a>
-          </div>
-        </aside>
+          </motion.div>
+        </motion.aside>
         {/*  main content */}
         <div className="main-content">
           {/* navigation */}
 
-          <div id="navigation">
+          <motion.div
+            id="navigation"
+            initial="hidden"
+            animate="show"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              show: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.5, ease: "easeOut" },
+              },
+            }}
+          >
             <nav>
               <a href="#about" className="active">
                 About
@@ -89,9 +136,15 @@ function App() {
               <a href="#portfolio">Portfolio</a>
               <a href="#education">Education</a>
             </nav>
-          </div>
+          </motion.div>
           {/* about me */}
-          <div id="about">
+          <motion.div
+            id="about"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
@@ -102,71 +155,86 @@ function App() {
               mobile-first designs. Passionate about building clean, scalable
               and user-friendly web applications.
             </p>
-          </div>
+          </motion.div>
           {/* skills */}
-          <div id="skills"></div>
-          <h2 className="headingskills">Skills</h2>
-          <div className="line"></div>
-          <div className="grid-container">
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/html5.svg"
-                alt="HTML5"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>HTML5</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/css.svg"
-                alt="CSS3"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>CSS3</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/javascript.svg"
-                alt="JavaScript"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>JavaScript</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/tailwindcss.svg"
-                alt="Tailwindcss"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Tailwind CSS</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/bootstrap.svg"
-                alt="Bootstrap5"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Bootstrap5</h3>
-            </div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <div id="skills"></div>
+            <h2 className="headingskills">Skills</h2>
+            <div className="line"></div>
+            <div className="grid-container">
+              <div className="item">
+                <img
+                  src="https://simpleicons.org/icons/html5.svg"
+                  alt="HTML5"
+                  width={"100px"}
+                  height={"100px"}
+                />
+                <h3>HTML5</h3>
+              </div>
+              <div className="item">
+                <img
+                  src="https://simpleicons.org/icons/css.svg"
+                  alt="CSS3"
+                  width={"100px"}
+                  height={"100px"}
+                />
+                <h3>CSS3</h3>
+              </div>
+              <div className="item">
+                <img
+                  src="https://simpleicons.org/icons/javascript.svg"
+                  alt="JavaScript"
+                  width={"100px"}
+                  height={"100px"}
+                />
+                <h3>JavaScript</h3>
+              </div>
+              <div className="item">
+                <img
+                  src="https://simpleicons.org/icons/tailwindcss.svg"
+                  alt="Tailwindcss"
+                  width={"100px"}
+                  height={"100px"}
+                />
+                <h3>Tailwind CSS</h3>
+              </div>
+              <div className="item">
+                <img
+                  src="https://simpleicons.org/icons/bootstrap.svg"
+                  alt="Bootstrap5"
+                  width={"100px"}
+                  height={"100px"}
+                />
+                <h3>Bootstrap5</h3>
+              </div>
 
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/react.svg"
-                alt="Reactjs"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Reactjs</h3>
+              <div className="item">
+                <img
+                  src="https://simpleicons.org/icons/react.svg"
+                  alt="Reactjs"
+                  width={"100px"}
+                  height={"100px"}
+                />
+                <h3>Reactjs</h3>
+              </div>
             </div>
-          </div>
-
+          </motion.div>
           {/* Certifications */}
-          <div id="portfolio">
+          <motion.div
+            id="portfolio"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3, margin: "0px 0px -150px 0px" }}
+            variants={{
+              hidden: {},
+              show: { transition: { staggerChildren: 0.15 } },
+            }}
+          >
             <h1 className="headingportfolio">Portfolio</h1>
             <div className="line"></div>
             <div className="project-container">
@@ -184,8 +252,7 @@ function App() {
                   <h3>Arecom | React.js E Commerce Frontend</h3>
                   <p>
                     Built a responsive e commerce frontend using React.js,
-                    HTML5, CSS3, and JavaScript. 
-                    Implemented product listing,
+                    HTML5, CSS3, and JavaScript. Implemented product listing,
                     search functionality, dark mode, reusable React components,
                     and React Router for seamless navigation.
                   </p>
@@ -329,7 +396,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
           <div id="portfolio">
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
