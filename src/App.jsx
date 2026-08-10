@@ -273,7 +273,7 @@ function App() {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
               >
-                <a href="https://arecom.vercel.app/shop" target="_blank">
+                <a href="https://arecom.vercel.app" target="_blank">
                   <img
                     className="ads"
                     src="hero section.png"
