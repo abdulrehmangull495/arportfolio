@@ -284,16 +284,14 @@ function App() {
                   initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.7 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+      transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Apex School Management</h3>
@@ -310,16 +308,14 @@ function App() {
                   initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.13}}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+      transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="adsl.png"
                     alt="adsliticsdashboard"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
@@ -333,20 +329,17 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
-
               <motion.div className="project"
                   initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.20 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+      transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://brarchitct.surge.sh/" target="_blank">
                   <img
                     src="brarch.png"
                     alt="brarchitects"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>BR Architecture</h3>
@@ -371,10 +364,8 @@ function App() {
                     src="Screenshot 2025-09-24 155923.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
-
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
                   <p>
@@ -392,16 +383,14 @@ function App() {
                   initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.22 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+      transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img
                     className="coffee"
                     src="coffee.png"
                     alt="coffee"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
@@ -415,21 +404,18 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
-
               <motion.div className="project"
                   initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.26 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+      transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img
                     className="ads"
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
@@ -449,25 +435,17 @@ function App() {
           initial={{ opacity: 0, y: 30 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true, amount: 0.30 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
-
-          >
+  transition={{ duration: 0.6, ease: "easeOut" }}>
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
               <div className="project">
-                {/* <a
-                  href="https://apex-school-ten.vercel.app/"
-                  target="_blank">
-                 
-                </a> */}
                 <img
                   className="ads"
                   src="/Reactjs certification.png"
                   alt="schoolmanagemant"
                   width={"70px"}
-                  height={"70px"}
-                />
+                  height={"70px"}/>
                 <div className="card">
                   <h3>Reactjs Certification</h3>
                   <p>
