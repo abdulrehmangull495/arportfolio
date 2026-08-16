@@ -84,19 +84,22 @@ function App() {
             className="social"
             initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0 }}
             animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}>
+            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}
+          >
             <h3 className="contactme">Contact me</h3>
             <a
               href="https://www.facebook.com/profile.php?id=100028939350475"
               target="_blank"
-              aria-label="Facebook profile">
+              aria-label="Facebook profile"
+            >
               <img src="facebook.svg" alt="facebook" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
               target="_blank"
-              aria-label="Whatsapp profile">
+              aria-label="Whatsapp profile"
+            >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
@@ -123,7 +126,8 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}>
+            }}
+          >
             <nav>
               <a href="#about" className="active">
                 About
@@ -139,16 +143,25 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}>
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              Frontend Developer with 6+ months of experience building
+              {/* Frontend Developer with 6+ months of experience building
               responsive and modern user interfaces using React.js and
               JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap5
               with hands-on experience developing reusable components and
               mobile-first designs. Passionate about building clean, scalable
-              and user-friendly web applications.
+              and user-friendly web applications. */}
+              I turn ideas into responsive, user friendly web experiences that
+              work smoothly across every screen. I'm a Frontend Developer
+              working with React.js, JavaScript, HTML5, CSS3, Tailwind CSS and
+              Bootstrap 5. I enjoy turning designs into functional interfaces,
+              building reusable components and solving frontend problems
+              through real projects. I'm currently focused on sharpening my
+              React and JavaScript skills while building cleaner, faster and
+              more practical web applications.
             </p>
           </motion.div>
           {/* skills */}
@@ -156,16 +169,18 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}>
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <div id="skills"></div>
             <h2 className="headingskills">Skills</h2>
             <div className="line"></div>
             <div className="grid-container">
-              <motion.div className="item"
-              initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.3 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
               >
                 <img
                   src="https://simpleicons.org/icons/html5.svg"
@@ -175,24 +190,27 @@ function App() {
                 />
                 <h3>HTML5</h3>
               </motion.div>
-              <motion.div className="item"
-              initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.8 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.8 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
               >
                 <img
                   src="https://simpleicons.org/icons/css.svg"
                   alt="CSS3"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"}
+                />
                 <h3>CSS3</h3>
               </motion.div>
-              <motion.div className="item"
-              initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.14 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.14 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
               >
                 <img
                   src="https://simpleicons.org/icons/javascript.svg"
@@ -202,23 +220,28 @@ function App() {
                 />
                 <h3>JavaScript</h3>
               </motion.div>
-              <motion.div className="item"
-              initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.15 }}
-  transition={{ duration: 0.6, ease: "easeOut" }} >
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.15 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+              >
                 <img
                   src="https://simpleicons.org/icons/tailwindcss.svg"
                   alt="Tailwindcss"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"}
+                />
                 <h3>Tailwind CSS</h3>
               </motion.div>
-              <motion.div className="item"
-              initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.18 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.18 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+              >
                 <img
                   src="https://simpleicons.org/icons/bootstrap.svg"
                   alt="Bootstrap5"
@@ -228,43 +251,51 @@ function App() {
                 <h3>Bootstrap5</h3>
               </motion.div>
 
-              <motion.div className="item"
-              initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.23 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.23 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+              >
                 <img
                   src="https://simpleicons.org/icons/react.svg"
                   alt="Reactjs"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"}
+                />
                 <h3>Reactjs</h3>
               </motion.div>
             </div>
           </motion.div>
           {/* Certifications */}
-          <motion.div
-            id="portfolio">
-            <motion.h1 className="headingportfolio"
-            initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-            >Portfolio</motion.h1>
+          <motion.div id="portfolio">
+            <motion.h1
+              className="headingportfolio"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+            >
+              Portfolio
+            </motion.h1>
             <div className="line"></div>
             <div className="project-container">
-              <motion.div className="project"
-              initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
-      transition={{ duration: 0.5, ease: "easeOut" }} >
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://arecom.vercel.app" target="_blank">
                   <img
                     className="ads"
                     src="hero section.png"
                     alt="arecom"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Arecom | React.js E Commerce Frontend</h3>
@@ -280,18 +311,21 @@ function App() {
                   <span>CSS3</span>
                 </div>
               </motion.div>
-              <motion.div className="project"
-                  initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.7 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.7 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Apex School Management</h3>
@@ -304,18 +338,21 @@ function App() {
                   <span>CSS3</span>
                 </div>
               </motion.div>
-              <motion.div className="project"
-                  initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.13}}
-      transition={{ duration: 0.5, ease: "easeOut" }}>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.13 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="adsl.png"
                     alt="adsliticsdashboard"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
@@ -329,17 +366,20 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
-              <motion.div className="project"
-                  initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.20 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://brarchitct.surge.sh/" target="_blank">
                   <img
                     src="brarch.png"
                     alt="brarchitects"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>BR Architecture</h3>
@@ -353,18 +393,20 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
-              <motion.div className="project"
-                  initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.18 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.18 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
               >
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img
                     src="Screenshot 2025-09-24 155923.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"} />
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
@@ -379,18 +421,21 @@ function App() {
                 </div>
               </motion.div>
 
-              <motion.div className="project"
-                  initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.22 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.22 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img
                     className="coffee"
                     src="coffee.png"
                     alt="coffee"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
@@ -404,18 +449,21 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
-              <motion.div className="project"
-                  initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.26 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.26 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img
                     className="ads"
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"}
+                  />
                 </a>
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
@@ -431,11 +479,13 @@ function App() {
               </motion.div>
             </div>
           </motion.div>
-          <motion.div id="portfolio"
-          initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.30 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}>
+          <motion.div
+            id="portfolio"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
@@ -445,7 +495,8 @@ function App() {
                   src="/Reactjs certification.png"
                   alt="schoolmanagemant"
                   width={"70px"}
-                  height={"70px"}/>
+                  height={"70px"}
+                />
                 <div className="card">
                   <h3>Reactjs Certification</h3>
                   <p>
@@ -460,12 +511,12 @@ function App() {
             </div>
           </motion.div>
           {/* education */}
-          <motion.div id="education"
-          initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.3 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
-
+          <motion.div
+            id="education"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <h2 className="headingeducation">Education</h2>
             <div className="line"></div>
