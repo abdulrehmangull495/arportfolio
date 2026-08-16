@@ -181,7 +181,7 @@ nav a:hover {
 }
 .content {
   text-align: justify;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #about {
@@ -225,6 +225,12 @@ nav a:hover {
 .item:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.goodfrontend{
+  font-weight: bold;
+}
+.firstidea{
+  font-weight: bold;
 }
 .headingeducation {
   font-size: 1.2rem;

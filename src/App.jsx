@@ -114,7 +114,6 @@ function App() {
         {/*  main content */}
         <div className="main-content">
           {/* navigation */}
-
           <motion.div
             id="navigation"
             initial="hidden"
@@ -158,10 +157,10 @@ function App() {
               work smoothly across every screen. I'm a Frontend Developer
               working with React.js, JavaScript, HTML5, CSS3, Tailwind CSS and
               Bootstrap 5. I enjoy turning designs into functional interfaces,
-              building reusable components and solving frontend problems
-              through real projects. I'm currently focused on sharpening my
-              React and JavaScript skills while building cleaner, faster and
-              more practical web applications.
+              building reusable components and solving frontend problems through
+              real projects. I'm currently focused on sharpening my React and
+              JavaScript skills while building cleaner, faster and more
+              practical web applications.
             </p>
           </motion.div>
           {/* skills */}
@@ -277,7 +276,7 @@ function App() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
             >
-              Portfolio
+              Projects
             </motion.h1>
             <div className="line"></div>
             <div className="project-container">
@@ -477,6 +476,78 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            id="portfolio"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <h1 className="headingportfolio">Why Work With Me</h1>
+            <div className="line"></div>
+            <div className="">
+              <p className="goodfrontend">
+                Good frontend work isn't just about making things look good.
+                It's about making them work well too.
+              </p>
+              <h4>1. Responsive by Default:</h4>
+              <p>
+                I build interfaces that adapt smoothly across desktop, tablet
+                and mobile screens.
+              </p>
+              <h4>2. Clean & Reusable Code:</h4>
+              <p>
+                I focus on reusable React components and organized code that's
+                easier to maintain.
+              </p>
+
+              <h4>3. Attention to Detail:</h4>
+              <p>
+                I care about spacing, typography, layout, responsiveness and the
+                small details that make a UI feel polished.
+              </p>
+              <h4>4. Always Improving</h4>
+              <p>
+                I learn by building real projects and continuously improving my
+                React, JavaScript and frontend development skills.
+              </p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            id="portfolio"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <h1 className="headingportfolio">Why Work With Me</h1>
+            <div className="line"></div>
+            <div className="">
+              <p className="firstidea">
+                From the first idea to the final interface, I focus on building
+                websites that look good, work well, and adapt to real users.
+              </p>
+              <h4>1. Understand:</h4>
+              <p>
+                I start by understanding the project goals, target users, content and required features.
+              </p>
+              <h4>2. Plan & Design:</h4>
+              <p>
+                I organize the page structure, layout, components and responsive behavior before development.
+              </p>
+              <h4>3. Develop:</h4>
+              <p>
+              I turn the design into a functional interface using HTML, CSS, JavaScript, React.js and modern CSS frameworks.
+              </p>
+              <h4>4. Test & Improve</h4>
+              <p>
+                I test the interface across different screen sizes, fix UI issues, improve responsiveness
+                 and refine the overall experience.
+              </p>
             </div>
           </motion.div>
           <motion.div
