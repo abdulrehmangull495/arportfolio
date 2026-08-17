@@ -493,23 +493,23 @@ function App() {
                 Good frontend work isn't just about making things look good.
                 It's about making them work well too.
               </p>
-              <h4>1. Responsive by Default:</h4>
+              <h4 className="points">1. Responsive by Default:</h4>
               <p>
                 I build interfaces that adapt smoothly across desktop, tablet
                 and mobile screens.
               </p>
-              <h4>2. Clean & Reusable Code:</h4>
+              <h4 className="points">2. Clean & Reusable Code:</h4>
               <p>
                 I focus on reusable React components and organized code that's
                 easier to maintain.
               </p>
 
-              <h4>3. Attention to Detail:</h4>
+              <h4 className="points">3. Attention to Detail:</h4>
               <p>
                 I care about spacing, typography, layout, responsiveness and the
                 small details that make a UI feel polished.
               </p>
-              <h4>4. Always Improving</h4>
+              <h4 className="points">4. Always Improving</h4>
               <p>
                 I learn by building real projects and continuously improving my
                 React, JavaScript and frontend development skills.
@@ -531,19 +531,19 @@ function App() {
                 From the first idea to the final interface, I focus on building
                 websites that look good, work well, and adapt to real users.
               </p>
-              <h4>1. Understand:</h4>
+              <h4 className="points">1. Understand:</h4>
               <p>
                 I start by understanding the project goals, target users, content and required features.
               </p>
-              <h4>2. Plan & Design:</h4>
+              <h4 className="points">2. Plan & Design:</h4>
               <p>
                 I organize the page structure, layout, components and responsive behavior before development.
               </p>
-              <h4>3. Develop:</h4>
+              <h4 className="points">3. Develop:</h4>
               <p>
               I turn the design into a functional interface using HTML, CSS, JavaScript, React.js and modern CSS frameworks.
               </p>
-              <h4>4. Test & Improve</h4>
+              <h4 className="points">4. Test & Improve:</h4>
               <p>
                 I test the interface across different screen sizes, fix UI issues, improve responsiveness
                  and refine the overall experience.
