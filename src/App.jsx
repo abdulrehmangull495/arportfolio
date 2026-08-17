@@ -486,7 +486,7 @@ function App() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <h1 className="headingportfolio">Why Work With Me</h1>
+            <h1 className="whywork">Why Work With Me</h1>
             <div className="line"></div>
             <div className="">
               <p className="goodfrontend">
