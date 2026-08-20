@@ -522,8 +522,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h1 className="headingportfolio">How I Build</h1>
             <div className="line"></div>
             <div className="">
@@ -555,8 +554,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }}>
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
@@ -587,11 +585,9 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h2 className="headingeducation">Education</h2>
             <div className="line"></div>
-
             <div className="edtech">
               <div className="edfirst">
                 <div className="year">2019-2023</div>
@@ -605,7 +601,6 @@ function App() {
                 </p>
                 <div className="goal"></div>
               </div>
-
               <div className="liner"></div>
             </div>
           </motion.div>
