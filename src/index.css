@@ -48,7 +48,6 @@ body {
   font-size: 1.2rem;
   font-weight: 700;
   margin-top: 20px;
-
   color: #be9e3d;
 }
 .downloadresume a:hover {
@@ -165,9 +164,7 @@ nav a {
 nav a:hover {
   color: #ffbf00;
 }
-
 /* about me */
-
 .headingabout {
   font-size: 1.5rem;
   margin-bottom: 15px;
@@ -183,11 +180,9 @@ nav a:hover {
   text-align: justify;
   font-size: 14px;
 }
-
 #about {
   margin-bottom: 30px;
 }
-
 .headingabout {
   font-size: 18px;
 }
@@ -215,7 +210,7 @@ nav a:hover {
   width: 25px;
   height: 25px;
   filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg)
-    brightness(110%) contrast(110%);
+  brightness(110%) contrast(110%);
   margin-bottom: 15px;
 }
 .item h3 {
@@ -373,7 +368,6 @@ nav a:hover {
     padding-bottom: 20px;
   }
 }
-
 @media screen and (min-width: 300px) and (max-width: 724px) {
   .content {
     text-align: center;
