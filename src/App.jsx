@@ -478,7 +478,6 @@ function App() {
               </motion.div>
             </div>
           </motion.div>
-
           <motion.div
             id="portfolio"
             initial={{ opacity: 0, y: 30 }}
@@ -503,7 +502,6 @@ function App() {
                 I focus on reusable React components and organized code that's
                 easier to maintain.
               </p>
-
               <h4 className="points">3. Attention to Detail:</h4>
               <p>
                 I care about spacing, typography, layout, responsiveness and the
@@ -516,7 +514,6 @@ function App() {
               </p>
             </div>
           </motion.div>
-
           <motion.div
             id="portfolio"
             initial={{ opacity: 0, y: 30 }}
