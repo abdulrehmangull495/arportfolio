@@ -60,7 +60,6 @@ body {
   border-radius: 16px;
   padding: 40px;
 }
-
 .profile p {
   background-color: #1e1e1e;
   padding: 5px 15px;
@@ -81,7 +80,6 @@ body {
   display: inline-block;
   margin-top: 10px;
 }
-
 .cv {
   color: #d6a71a;
   text-decoration: none;
@@ -94,7 +92,6 @@ body {
   background-color: #1e1e1e;
   padding: 10px;
 }
-
 /* contact section */
 .contact {
   margin-top: 30px;
@@ -117,11 +114,9 @@ body {
 .phone {
   margin-bottom: 15px;
 }
-
 .contact a {
   color: white;
 }
-
 /* social */
 .social {
   margin-top: 30px;
@@ -140,9 +135,7 @@ body {
 .social img:hover {
   filter: grayscale(0) invert(0);
 }
-
 /* maincontent */
-
 /* navbar */
 #navigation {
   margin-bottom: 10px;
