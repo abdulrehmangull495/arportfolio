@@ -14,8 +14,7 @@ function App() {
           variants={{
             hidden: {},
             show: { transition: { staggerChildren: 0.15 } },
-          }}
-        >
+          }}>
           <motion.div
             className="profile"
             variants={{
@@ -25,8 +24,7 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}
-          >
+            }}>
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
@@ -217,8 +215,7 @@ function App() {
                   src="https://simpleicons.org/icons/bootstrap.svg"
                   alt="Bootstrap5"
                   width={"100px"}
-                  height={"100px"}
-                />
+                  height={"100px"}/>
                 <h3>Bootstrap5</h3>
               </motion.div>
               <motion.div
@@ -282,16 +279,14 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.7 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Apex School Management</h3>
@@ -309,16 +304,14 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.13 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }} >
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="adsl.png"
                     alt="adsliticsdashboard"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
@@ -337,15 +330,13 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}  >
                 <a href="https://brarchitct.surge.sh/" target="_blank">
                   <img
                     src="brarch.png"
                     alt="brarchitects"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>BR Architecture</h3>
@@ -364,15 +355,13 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.18 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }} >
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img
                     src="Screenshot 2025-09-24 155923.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
@@ -386,22 +375,19 @@ function App() {
                   <span>Bootstrap5</span>
                 </div>
               </motion.div>
-
               <motion.div
                 className="project"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.22 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }} >
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img
                     className="coffee"
                     src="coffee.png"
                     alt="coffee"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
@@ -428,8 +414,7 @@ function App() {
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
@@ -450,8 +435,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }}>
             <h1 className="whywork">Why Work With Me</h1>
             <div className="line"></div>
             <div className="">
@@ -528,8 +512,7 @@ function App() {
                   src="/Reactjs certification.png"
                   alt="schoolmanagemant"
                   width={"70px"}
-                  height={"70px"}
-                />
+                  height={"70px"}/>
                 <div className="card">
                   <h3>Reactjs Certification</h3>
                   <p>
