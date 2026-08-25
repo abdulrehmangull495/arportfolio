@@ -36,21 +36,17 @@ function App() {
               height="100"
               style={{ objectFit: "cover" }}
             />
-
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
-
             <div className="downloadresume">
               <a
                 href="/Abdul Rehman Gull Frontend Developer Resume.pdf"
                 target="_blank"
-                className="cv"
-              >
+                className="cv" >
                 Download Resume
               </a>
             </div>
           </motion.div>
-
           <motion.div
             className="contact"
             variants={{
@@ -60,8 +56,7 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}
-          >
+            }}>
             <div className="mail">
               <h2 className="label">Email</h2>
               <a className="value" href="mailto:abdulrehmangull495@gmail.com">
@@ -76,7 +71,6 @@ function App() {
             </div>
             <div className="location">
               <h2 className="label">Location</h2>
-
               <p className="value">Faisalabad.</p>
             </div>
           </motion.div>
@@ -84,27 +78,23 @@ function App() {
             className="social"
             initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0 }}
             animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}
-          >
+            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }} >
             <h3 className="contactme">Contact me</h3>
             <a
               href="https://www.facebook.com/profile.php?id=100028939350475"
               target="_blank"
-              aria-label="Facebook profile"
-            >
+              aria-label="Facebook profile" >
               <img src="facebook.svg" alt="facebook" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
               target="_blank"
-              aria-label="Whatsapp profile"
-            >
+              aria-label="Whatsapp profile" >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
-                aria-label="linkedin profile"
-              />
+                aria-label="linkedin profile"/>
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
               <img src="what.png" alt="whatsapp" />
@@ -125,8 +115,7 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}
-          >
+            }} >
             <nav>
               <a href="#about" className="active">
                 About
@@ -142,17 +131,10 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              {/* Frontend Developer with 6+ months of experience building
-              responsive and modern user interfaces using React.js and
-              JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap5
-              with hands-on experience developing reusable components and
-              mobile-first designs. Passionate about building clean, scalable
-              and user-friendly web applications. */}
               I turn ideas into responsive, user friendly web experiences that
               work smoothly across every screen. I'm a Frontend Developer
               working with React.js, JavaScript, HTML5, CSS3, Tailwind CSS and
@@ -168,8 +150,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }}>
             <div id="skills"></div>
             <h2 className="headingskills">Skills</h2>
             <div className="line"></div>
@@ -179,14 +160,12 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.6, ease: "easeOut" }}>
                 <img
                   src="https://simpleicons.org/icons/html5.svg"
                   alt="HTML5"
                   width={"100px"}
-                  height={"100px"}
-                />
+                  height={"100px"}/>
                 <h3>HTML5</h3>
               </motion.div>
               <motion.div
@@ -194,14 +173,12 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.8 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.6, ease: "easeOut" }}>
                 <img
                   src="https://simpleicons.org/icons/css.svg"
                   alt="CSS3"
                   width={"100px"}
-                  height={"100px"}
-                />
+                  height={"100px"} />
                 <h3>CSS3</h3>
               </motion.div>
               <motion.div
@@ -209,14 +186,12 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.14 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.6, ease: "easeOut" }} >
                 <img
                   src="https://simpleicons.org/icons/javascript.svg"
                   alt="JavaScript"
                   width={"100px"}
-                  height={"100px"}
-                />
+                  height={"100px"}/>
                 <h3>JavaScript</h3>
               </motion.div>
               <motion.div
@@ -224,14 +199,12 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.15 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.6, ease: "easeOut" }}>
                 <img
                   src="https://simpleicons.org/icons/tailwindcss.svg"
                   alt="Tailwindcss"
                   width={"100px"}
-                  height={"100px"}
-                />
+                  height={"100px"} />
                 <h3>Tailwind CSS</h3>
               </motion.div>
               <motion.div
@@ -239,8 +212,7 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.18 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.6, ease: "easeOut" }} >
                 <img
                   src="https://simpleicons.org/icons/bootstrap.svg"
                   alt="Bootstrap5"
@@ -249,14 +221,12 @@ function App() {
                 />
                 <h3>Bootstrap5</h3>
               </motion.div>
-
               <motion.div
                 className="item"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.23 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.6, ease: "easeOut" }} >
                 <img
                   src="https://simpleicons.org/icons/react.svg"
                   alt="Reactjs"
@@ -274,8 +244,7 @@ function App() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
-            >
+              transition={{ duration: 0.5, ease: "easeOut" }}>
               Projects
             </motion.h1>
             <div className="line"></div>
@@ -285,16 +254,14 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://arecom.vercel.app" target="_blank">
                   <img
                     className="ads"
                     src="hero section.png"
                     alt="arecom"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Arecom | React.js E Commerce Frontend</h3>
