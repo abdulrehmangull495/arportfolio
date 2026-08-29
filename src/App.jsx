@@ -265,7 +265,7 @@ function App() {
                   <p>
                     Built a responsive e commerce frontend using React.js,
                     HTML5, CSS3, and JavaScript. Implemented product listing,
-                    search functionality, dark mode, reusable React components,
+                    search functionality, dark mode, reusable React components
                     and React Router for seamless navigation.
                   </p>
                   <span>React.js</span>
@@ -406,8 +406,7 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.26 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img
                     className="ads"
