@@ -107,13 +107,12 @@ function App() {
             initial="hidden"
             animate="show"
             variants={{
-              hidden: { opacity: 0, y: 20 },
-              show: {
+                hidden: { opacity: 0, y: 20 },
+                show: {
                 opacity: 1,
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
-              },
-            }} >
+              },}} >
             <nav>
               <a href="#about" className="active">
                 About
@@ -136,12 +135,11 @@ function App() {
               I turn ideas into responsive, user friendly web experiences that
               work smoothly across every screen. I'm a Frontend Developer
               working with React.js, JavaScript, HTML5, CSS3, Tailwind CSS and
-              Bootstrap 5. I enjoy turning designs into functional interfaces,
+              Bootstrap 5.I enjoy turning designs into functional interfaces,
               building reusable components and solving frontend problems through
               real projects. I'm currently focused on sharpening my React and
               JavaScript skills while building cleaner, faster and more
-              practical web applications.
-            </p>
+              practical web applications.</p>
           </motion.div>
           {/* skills */}
           <motion.div
