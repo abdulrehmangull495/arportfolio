@@ -148,11 +148,40 @@ function App() {
               Frontend Developer with 5 to 6 months of hands on experience
               working with React.js, JavaScript, HTML5, CSS3, Tailwind CSS and
               Bootstrap 5. I specialize in building reusable components,
-              responsive interfaces and solving frontend challenges through
-              real world projects. Currently, I’m focused on strengthening my
-              React and JavaScript skills while building clean, efficient and
+              responsive interfaces and solving frontend challenges through real
+              world projects. Currently, I’m focused on strengthening my React
+              and JavaScript skills while building clean, efficient and
               practical web applications.
             </p>
+          </motion.div>
+
+          {/* Experience */}
+          <motion.div
+            id="about"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <h2 className="headingabout">Experience</h2>
+            <div className="line"></div>
+            <h4>Frontend Developer Intern | GMZ</h4>
+            <h4 className="june">Dec 2024 to April 2025</h4>
+            <p className="content">
+              Worked as a Frontend Developer Intern, gaining practical
+              experience in building responsive web interfaces and dashboard
+              applications. Focused on responsive layouts, UI implementation,
+              reusable components, debugging and solving frontend problems
+              through practical projects.
+            </p>
+            <h4 className="key">Key Work:</h4>
+            <p>• Built 2 responsive landing pages</p>
+            <p>• Developed 3 dashboard interfaces</p>
+            <p>• Created responsive layouts for different screen sizes</p>
+            <p>
+              • Converted designs and requirements into functional interfaces
+            </p>
+            <p>• Worked on frontend debugging and UI improvements</p>
           </motion.div>
           {/* skills */}
           <motion.div

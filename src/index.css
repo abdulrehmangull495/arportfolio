@@ -179,6 +179,12 @@ nav a:hover {
 .headingabout {
   font-size: 18px;
 }
+.key{
+  color: #e0e0e0;
+}
+.june{
+  color: #e0e0e0;
+}
 /* skills section */
 .grid-container {
   display: grid;
@@ -323,6 +329,7 @@ nav a:hover {
   height: 180px;
   object-fit: cover;
 }
+
 .card h3 {
   color: #e0e0e0;
   margin-bottom: 10px;
