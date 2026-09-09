@@ -316,7 +316,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>Arecom | React.js E Commerce Frontend</h3>
+                  <a href="https://arecom.vercel.app" target="_blank"><h3>Arecom | React.js E Commerce Frontend</h3></a>
+                  
                   <p>
                     Built a responsive e commerce frontend using React.js,
                     HTML5, CSS3, and JavaScript. Implemented product listing,
@@ -346,7 +347,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>Apex School Management</h3>
+                  
+                  <a href="https://apex-school-ten.vercel.app/" target="_blank"><h3>Apex School Management</h3></a>
                   <p>
                     A responsive school management website built with React.js
                     and CSS3, featuring admission page, about section and a
@@ -373,7 +375,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>Adslitics Dashboard</h3>
+                  
+                   <a href="https://adsliticsdash.vercel.app/" target="_blank"><h3>Adslitics Dashboard</h3></a>
                   <p>
                     Developed a responsive React.js dashboard featuring reusable
                     components, a clean user interface and an optimized layout
@@ -400,7 +403,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>BR Architecture</h3>
+                  
+                  <a href="https://brarchitct.surge.sh/" target="_blank"><h3>BR Architecture</h3></a>
                   <p>
                     Built a fully responsive architecture landing page using
                     HTML5, CSS3 & Bootstrap 5 with a modern layout and smooth
@@ -427,7 +431,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>Kitemens Landing Page</h3>
+                  
+                  <a href="https://kitemens.surge.sh/" target="_blank"><h3>Kitemens Landing Page</h3></a>
                   <p>
                     Developed a fully responsive landing page using HTML5, CSS3
                     and Bootstrap 5 with a modern layout and mobile friendly
@@ -455,7 +460,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>Coffee Nest</h3>
+                  
+                   <a href="https://coffeenest.surge.sh/" target="_blank"><h3>Coffee Nest</h3></a>
                   <p>
                     Built a responsive multi page website using HTML5, CSS3 and
                     Bootstrap 5 with a clean UI and smooth navigation across all
@@ -483,7 +489,8 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <h3>Inkomoko Dashboard</h3>
+                  
+                  <a href="https://inkomoko.surge.sh/" target="_blank"><h3>Inkomoko Dashboard</h3></a>
                   <p>
                     Developed a responsive dashboard using HTML5, CSS3 and
                     Bootstrap 5 with well structured components and consistent
