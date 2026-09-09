@@ -47,6 +47,12 @@ function App() {
                 Download Resume
               </a>
             </div>
+            <div className="downloadresume">
+              <a href="https://github.com/abdulrehmangull495"
+                target="_blank"
+                className="cv">Github
+              </a>
+            </div>
           </motion.div>
           <motion.div
             className="contact"
