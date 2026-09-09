@@ -53,6 +53,15 @@ body {
 .downloadresume a:hover {
   color: #be9e3d;
 }
+.github{
+   color: #d6a71a;
+   margin-top: 20px;
+}
+.github:hover{
+   color: #be9e3d;
+   
+}
+ 
 
 .main-content {
   border: 1px solid #3a3a3a;

@@ -47,7 +47,7 @@ function App() {
                 Download Resume
               </a>
             </div>
-            <div className="downloadresume">
+            <div className="github">
               <a href="https://github.com/abdulrehmangull495"
                 target="_blank"
                 className="cv">Github
