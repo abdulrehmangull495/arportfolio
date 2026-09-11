@@ -14,8 +14,7 @@ function App() {
           variants={{
             hidden: {},
             show: { transition: { staggerChildren: 0.15 } },
-          }}
-        >
+          }} >
           <motion.div
             className="profile"
             variants={{
@@ -25,8 +24,7 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}
-          >
+            }}>
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
@@ -34,16 +32,14 @@ function App() {
               alt="Abdul Rehman"
               width="100"
               height="100"
-              style={{ objectFit: "cover" }}
-            />
+              style={{ objectFit: "cover" }}/>
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
             <div className="downloadresume">
               <a
                 href="/Abdul Rehman Gull Frontend Developer Resume.pdf"
                 target="_blank"
-                className="cv"
-              >
+                className="cv" >
                 Download Resume
               </a>
             </div>
@@ -63,8 +59,7 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}
-          >
+            }}>
             <div className="mail">
               <h2 className="label">Email</h2>
               <a className="value" href="mailto:abdulrehmangull495@gmail.com">
