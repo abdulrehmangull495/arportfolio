@@ -370,8 +370,7 @@ function App() {
                     src="brarch.png"
                     alt="brarchitects"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <a href="https://brarchitct.surge.sh/" target="_blank"><h3>BR Architecture</h3></a>
@@ -390,18 +389,15 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.18 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img
                     src="Screenshot 2025-09-24 155923.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
-                  
                   <a href="https://kitemens.surge.sh/" target="_blank"><h3>Kitemens Landing Page</h3></a>
                   <p>
                     Developed a fully responsive landing page using HTML5, CSS3
@@ -418,19 +414,16 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.22 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}  >
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img
                     className="coffee"
                     src="coffee.png"
                     alt="coffee"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
-                  
                    <a href="https://coffeenest.surge.sh/" target="_blank"><h3>Coffee Nest</h3></a>
                   <p>
                     Built a responsive multi page website using HTML5, CSS3 and
@@ -447,19 +440,16 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.26 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }} >
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img
                     className="ads"
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
-                  
                   <a href="https://inkomoko.surge.sh/" target="_blank"><h3>Inkomoko Dashboard</h3></a>
                   <p>
                     Developed a responsive dashboard using HTML5, CSS3 and
@@ -478,8 +468,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h1 className="whywork">Why Work With Me</h1>
             <div className="line"></div>
             <div className="">
@@ -514,8 +503,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h1 className="headingportfolio">How I Build</h1>
             <div className="line"></div>
             <div className="">
@@ -551,8 +539,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
