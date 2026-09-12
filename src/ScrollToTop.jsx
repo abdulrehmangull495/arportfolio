@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css"
 const ScrollToTop = () => {
-  const [visible, setVisible] = useState(false);
+const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,12 +14,10 @@ const ScrollToTop = () => {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
   return (
     <button
       onClick={scrollTop}
-      className={`scroll-btn ${visible ? "show" : ""}`}
-    >
+      className={`scroll-btn ${visible ? "show" : ""}`}>
       ↑
     </button>
   );
