@@ -30,9 +30,13 @@ function App() {
               transition={{ duration: 0.3 }}
               src="abdul rehman.png"
               alt="Abdul Rehman"
-              width="100"
-              height="100"
-              style={{ objectFit: "cover" }}/>
+              width="150"
+              height="150"
+              style={{
+                objectFit: "cover",
+                borderRadius: "50%",
+                border: "2px solid #d6a71a"
+              }} />
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
             <div className="downloadresume">
@@ -96,7 +100,7 @@ function App() {
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
-                aria-label="linkedin profile"/>
+                aria-label="linkedin profile" />
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
               <img src="what.png" alt="whatsapp" />
@@ -211,7 +215,7 @@ function App() {
                   src="https://simpleicons.org/icons/css.svg"
                   alt="CSS3"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"} />
                 <h3>CSS3</h3>
               </motion.div>
               <motion.div
@@ -224,7 +228,7 @@ function App() {
                   src="https://simpleicons.org/icons/javascript.svg"
                   alt="JavaScript"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"} />
                 <h3>JavaScript</h3>
               </motion.div>
               <motion.div
@@ -237,7 +241,7 @@ function App() {
                   src="https://simpleicons.org/icons/tailwindcss.svg"
                   alt="Tailwindcss"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"} />
                 <h3>Tailwind CSS</h3>
               </motion.div>
               <motion.div
@@ -250,7 +254,7 @@ function App() {
                   src="https://simpleicons.org/icons/bootstrap.svg"
                   alt="Bootstrap5"
                   width={"100px"}
-                  height={"100px"}/>
+                  height={"100px"} />
                 <h3>Bootstrap5</h3>
               </motion.div>
               <motion.div
@@ -292,7 +296,7 @@ function App() {
                     src="hero section.png"
                     alt="arecom"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <a href="https://arecom.vercel.app" target="_blank"><h3>Arecom | React.js E Commerce Frontend</h3></a>
@@ -320,7 +324,7 @@ function App() {
                     src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <a href="https://apex-school-ten.vercel.app/" target="_blank"><h3>Apex School Management</h3></a>
@@ -348,7 +352,7 @@ function App() {
                     height={"100px"} />
                 </a>
                 <div className="card">
-                   <a href="https://adsliticsdash.vercel.app/" target="_blank"><h3>Adslitics Dashboard</h3></a>
+                  <a href="https://adsliticsdash.vercel.app/" target="_blank"><h3>Adslitics Dashboard</h3></a>
                   <p>
                     Developed a responsive React.js dashboard featuring reusable
                     components, a clean user interface and an optimized layout
@@ -370,7 +374,7 @@ function App() {
                     src="brarch.png"
                     alt="brarchitects"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <a href="https://brarchitct.surge.sh/" target="_blank"><h3>BR Architecture</h3></a>
@@ -395,7 +399,7 @@ function App() {
                     src="Screenshot 2025-09-24 155923.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <a href="https://kitemens.surge.sh/" target="_blank"><h3>Kitemens Landing Page</h3></a>
@@ -424,7 +428,7 @@ function App() {
                     height={"100px"} />
                 </a>
                 <div className="card">
-                   <a href="https://coffeenest.surge.sh/" target="_blank"><h3>Coffee Nest</h3></a>
+                  <a href="https://coffeenest.surge.sh/" target="_blank"><h3>Coffee Nest</h3></a>
                   <p>
                     Built a responsive multi page website using HTML5, CSS3 and
                     Bootstrap 5 with a clean UI and smooth navigation across all
@@ -447,7 +451,7 @@ function App() {
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}/>
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <a href="https://inkomoko.surge.sh/" target="_blank"><h3>Inkomoko Dashboard</h3></a>
