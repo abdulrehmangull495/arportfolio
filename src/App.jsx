@@ -180,11 +180,12 @@ function App() {
             <h4>Frontend Developer Intern | GMZ</h4>
             <h4 className="june">Dec 2024 to April 2025</h4>
             <p className="content">
-              Worked as a Frontend Developer Intern, gaining practical
-              experience in building responsive web interfaces and dashboard
-              applications. Focused on responsive layouts, UI implementation,
-              reusable components, debugging and solving frontend problems
-              through practical projects.
+              During this internship, I built 3 React-based dashboard interfaces
+              with reusable components and a responsive company landing page
+              using HTML5, CSS3, and Bootstrap 5. I worked directly with designs
+              and requirements, converting them into functional, mobile-first
+              interfaces and spent time debugging cross-browser issues as they
+              came up.
             </p>
             <h4 className="key">Key Work:</h4>
             <p>• Built 2 responsive landing pages</p>
@@ -328,15 +329,21 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://arecom.vercel.app" target="_blank">
-                    <h3>Arecom | React.js E Commerce Frontend</h3>
+                  <h3>Arecom | React.js E Commerce Frontend</h3>
+                  <a
+                    href="https://arecom.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
-                    A Built a responsive e-commerce frontend with React.js,
-                    CSS3, Bootstrap 5 and JavaScript. Includes product listing,
-                    search and filtering, a working cart with add/remove
-                    functionality, dark mode and smooth page transitions using
-                    Framer Motion and React Router.
+                    Built a responsive e-commerce frontend with React.js, CSS3,
+                    Bootstrap 5 and JavaScript. Includes product listing, search
+                    and filtering, a working cart with add/remove functionality,
+                    dark mode and smooth page transitions using Framer Motion
+                    and React Router.
                   </p>
                   <span>React.js</span>
                   <span>JavaScript</span>
@@ -363,8 +370,14 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://apex-school-ten.vercel.app/" target="_blank">
-                    <h3>Apex School Management</h3>
+                  <h3>Apex School Management</h3>
+                  <a
+                    href="https://apex-school-ten.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
                     A responsive school management website built with React.js
@@ -392,8 +405,15 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://adsliticsdash.vercel.app/" target="_blank">
-                    <h3>Adslitics Dashboard</h3>
+                  <h3>Adslitics Dashboard</h3>
+
+                  <a
+                    href="https://adsliticsdash.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
                     Developed a responsive React.js dashboard featuring reusable
@@ -421,8 +441,15 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://brarchitct.surge.sh/" target="_blank">
-                    <h3>BR Architecture</h3>
+                  <h3>BR Architecture</h3>
+
+                  <a
+                    href="https://brarchitct.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
                     Built a fully responsive architecture landing page using
@@ -450,8 +477,14 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://kitemens.surge.sh/" target="_blank">
-                    <h3>Kitemens Landing Page</h3>
+                  <h3>Kitemens Landing Page</h3>
+                  <a
+                    href="https://kitemens.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
                     Developed a fully responsive landing page using HTML5, CSS3
@@ -480,8 +513,15 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://coffeenest.surge.sh/" target="_blank">
-                    <h3>Coffee Nest</h3>
+                  <h3>Coffee Nest</h3>
+
+                  <a
+                    href="https://coffeenest.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
                     Built a responsive multi page website using HTML5, CSS3 and
@@ -510,8 +550,15 @@ function App() {
                   />
                 </a>
                 <div className="card">
-                  <a href="https://inkomoko.surge.sh/" target="_blank">
-                    <h3>Inkomoko Dashboard</h3>
+                  <h3>Inkomoko Dashboard</h3>
+
+                  <a
+                    href="https://inkomoko.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
                   </a>
                   <p>
                     Developed a responsive dashboard using HTML5, CSS3 and
@@ -536,28 +583,29 @@ function App() {
             <div className="line"></div>
             <div className="">
               <p className="goodfrontend">
-                Good frontend work isn't just about making things look good.
-                It's about making them work well too.
+                Good frontend work isn't just about looking good it has to work
+                smoothly too. Here's what I focus on:
               </p>
               <h4 className="points">1. Responsive by Default:</h4>
               <p>
-                I build interfaces that adapt smoothly across desktop, tablet
-                and mobile screens.
+                Every interface I build works properly across desktop, tablet
+                and mobile not just as an afterthought.
               </p>
-              <h4 className="points">2. Clean & Reusable Code:</h4>
+              <h4 className="points">2. Clean,Reusable Code:</h4>
               <p>
-                I focus on reusable React components and organized code that's
-                easier to maintain.
+                I write React components that are easy to maintain and reuse not
+                throwaway code for a single page.
               </p>
-              <h4 className="points">3. Attention to Detail:</h4>
+              <h4 className="points">3.Details matter:</h4>
               <p>
-                I care about spacing, typography, layout, responsiveness and the
-                small details that make a UI feel polished.
+                Spacing, typography, hover states, small transitions the little
+                things are what make an interface feel finished instead of just
+                functional.
               </p>
-              <h4 className="points">4. Always Improving</h4>
+              <h4 className="points">4.Still learning, every project:</h4>
               <p>
-                I learn by building real projects and continuously improving my
-                React, JavaScript and frontend development skills.
+                Every project I build teaches me something new about React,
+                JavaScript, or frontend patterns I hadn't used before.
               </p>
             </div>
           </motion.div>
@@ -571,30 +619,25 @@ function App() {
             <h1 className="headingportfolio">How I Build</h1>
             <div className="line"></div>
             <div className="">
-              <p className="firstidea">
-                From the first idea to the final interface, I focus on building
-                websites that look good, work well, and adapt to real users.
-              </p>
-              <h4 className="points">1. Understand:</h4>
+              {/* <p className="firstidea">
+                
+              </p> */}
+              <h4 className="points">1.Understand the goal:</h4>
+              <p>What is this page for and who's using it?</p>
+              <h4 className="points">2.Plan before I code:</h4>
               <p>
-                I start by understanding the project goals, target users,
-                content and required features.
+                Layout, components and responsive behavior get sketched out
+                before I write anything.
               </p>
-              <h4 className="points">2. Plan & Design:</h4>
+              <h4 className="points">3.Build it:</h4>
               <p>
-                I organize the page structure, layout, components and responsive
-                behavior before development.
+                HTML, CSS, JavaScript, Reactjs and modern CSS get put together
+                into a working interface.
               </p>
-              <h4 className="points">3. Develop:</h4>
+              <h4 className="points">4.Test and refine:</h4>
               <p>
-                I turn the design into a functional interface using HTML, CSS,
-                JavaScript, React.js and modern CSS frameworks.
-              </p>
-              <h4 className="points">4. Test & Improve:</h4>
-              <p>
-                I test the interface across different screen sizes, fix UI
-                issues, improve responsiveness and refine the overall
-                experience.
+                I check it across screen sizes, fix what's broken and polish
+                what's rough.
               </p>
             </div>
           </motion.div>

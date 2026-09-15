@@ -327,9 +327,19 @@ nav a:hover {
   transform: translateY(-5px);
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.projects-link{
+  display: block;
+  color: #ffbf00;
+  margin-top: 6px;
+}
 .card {
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  
 }
+
 .card a{
   text-decoration: none;
 }
@@ -355,8 +365,9 @@ nav a:hover {
   color: #ffbf00;
   padding: 4px 8px;
   border-radius: 5px;
-  font-size: 0.75rem;
-  margin-right: 5px;
+  font-size: 1rem;
+  white-space: nowrap;
+
 }
 .tokbackup {
   width: 100%;
