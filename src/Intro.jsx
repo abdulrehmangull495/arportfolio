@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import "./index.css";
 
-const particles = Array.from({ length: 35 });
+const particles = Array.from({ length: 25 });
 
 const Intro = () => {
   const [showIntro, setShowIntro] = useState(true);
@@ -10,21 +10,27 @@ const Intro = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowIntro(false);
-    }, 4200);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence>
       {showIntro && (
         <motion.div
           className="intro"
           initial={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.8 }}
+          exit={{
+            opacity: 0,
+            scale: 1.02,
+            filter: "blur(6px)",
+          }}
+          transition={{
+            duration: 0.5,
+            ease: "easeInOut",
+          }}
         >
-          {/* Background glow */}
           <div className="glow glowOne"></div>
           <div className="glow glowTwo"></div>
 
@@ -36,72 +42,65 @@ const Intro = () => {
                 className="particle"
                 initial={{
                   opacity: 0,
-                  y: 30,
-                  x: 0,
+                  y: 20,
                 }}
                 animate={{
-                  opacity: [0, 0.8, 0],
-                  y: -120,
-                  x: Math.sin(index) * 60,
+                  opacity: [0, 0.7, 0],
+                  y: -100,
                 }}
                 transition={{
-                  duration: 3 + (index % 3),
-                  delay: index * 0.08,
+                  duration: 2.5,
+                  delay: index * 0.05,
                   repeat: Infinity,
                   ease: "easeOut",
                 }}
                 style={{
-                  left: `${(index * 29) % 100}%`,
-                  top: `${(index * 17) % 100}%`,
+                  left: `${(index * 37) % 100}%`,
+                  top: `${(index * 23) % 100}%`,
                 }}
               />
             ))}
           </div>
 
-          {/* Main content */}
           <div className="introContent">
 
-            {/* Small top text */}
+            {/* Welcome */}
             <motion.div
               className="welcome"
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{
-                duration: 0.8,
-                ease: "easeOut",
+                duration: 0.45,
               }}
             >
               <span className="welcomeLine"></span>
+
               Welcome to my portfolio
+
               <span className="welcomeLine"></span>
             </motion.div>
 
             {/* Name */}
-            <div className="nameWrapper">
-              {"I'm Abdul Rehman Gull".split("").map((char, index) => (
-                <motion.span
-                  key={index}
-                  className="nameLetter"
-                  initial={{
-                    opacity: 0,
-                    y: 60,
-                    rotateX: 90,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                    rotateX: 0,
-                  }}
-                  transition={{
-                    duration: 0.7,
-                    delay: 0.7 + index * 0.045,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                >
-                  {char === " " ? "\u00A0" : char}
-                </motion.span>
-              ))}
-            </div>
+            <motion.h1
+              className="introName"
+              initial={{
+                opacity: 0,
+                y: 35,
+                scale: 0.96,
+              }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                scale: 1,
+              }}
+              transition={{
+                duration: 0.65,
+                delay: 0.25,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+            >
+              I'm Abdul Rehman Gull
+            </motion.h1>
 
             {/* Line */}
             <div className="animatedLine">
@@ -109,20 +108,20 @@ const Intro = () => {
                 initial={{ width: 0 }}
                 animate={{ width: "100%" }}
                 transition={{
-                  duration: 1.5,
-                  delay: 1.7,
-                  ease: "easeInOut",
+                  duration: 0.9,
+                  delay: 0.65,
+                  ease: "easeOut",
                 }}
               />
             </div>
 
             {/* Role */}
-            <motion.div
+            <motion.h2
               className="role"
               initial={{
                 opacity: 0,
-                y: 30,
-                filter: "blur(8px)",
+                y: 20,
+                filter: "blur(5px)",
               }}
               animate={{
                 opacity: 1,
@@ -130,34 +129,33 @@ const Intro = () => {
                 filter: "blur(0px)",
               }}
               transition={{
-                duration: 1,
-                delay: 2,
-                ease: "easeOut",
+                duration: 0.55,
+                delay: 0.8,
               }}
             >
-              <span>Frontend Developer</span>
-            </motion.div>
+              Frontend Developer
+            </motion.h2>
 
-            {/* Bottom status */}
+            {/* Status */}
             <motion.div
               className="status"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
-                delay: 2.8,
-                duration: 0.8,
+                delay: 1.15,
+                duration: 0.5,
               }}
             >
               <span className="statusDot"></span>
-              Creating digital experiences
+              Building fast & responsive websites
             </motion.div>
 
-            {/* Rotating circle */}
+            {/* Circles */}
             <motion.div
               className="circle circleOne"
               animate={{ rotate: 360 }}
               transition={{
-                duration: 12,
+                duration: 10,
                 repeat: Infinity,
                 ease: "linear",
               }}
@@ -167,7 +165,7 @@ const Intro = () => {
               className="circle circleTwo"
               animate={{ rotate: -360 }}
               transition={{
-                duration: 18,
+                duration: 14,
                 repeat: Infinity,
                 ease: "linear",
               }}
@@ -175,24 +173,35 @@ const Intro = () => {
 
           </div>
 
-          {/* Bottom progress */}
+          {/* Progress */}
           <div className="progressContainer">
             <motion.div
               className="progress"
               initial={{ width: "0%" }}
               animate={{ width: "100%" }}
               transition={{
-                duration: 4,
+                duration: 2.8,
                 ease: "linear",
               }}
             />
           </div>
 
-          {/* Corner text */}
-          <div className="cornerText topLeft">AR / 01</div>
-          <div className="cornerText topRight">PORTFOLIO</div>
-          <div className="cornerText bottomLeft">FRONTEND</div>
-          <div className="cornerText bottomRight">2026</div>
+          <div className="cornerText topLeft">
+            AR / 01
+          </div>
+
+          <div className="cornerText topRight">
+            PORTFOLIO
+          </div>
+
+          <div className="cornerText bottomLeft">
+            FRONTEND
+          </div>
+
+          <div className="cornerText bottomRight">
+            2026
+          </div>
+
         </motion.div>
       )}
     </AnimatePresence>
