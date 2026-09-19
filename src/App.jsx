@@ -51,8 +51,7 @@ function App() {
               <a
                 href="https://github.com/abdulrehmangull495"
                 target="_blank"
-                className="cv"
-              >
+                className="cv">
                 Github
               </a>
             </div>
@@ -66,9 +65,8 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}
-          >
-            <div className="mail">
+            }}>
+           <div className="mail">
               <h2 className="label">Email</h2>
               <a className="value" href="mailto:abdulrehmangull495@gmail.com">
                 abdulrehmangull495@gmail.com
@@ -89,26 +87,22 @@ function App() {
             className="social"
             initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0 }}
             animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}
-          >
+            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}>
             <h3 className="contactme">Contact me</h3>
             <a
               href="https://www.facebook.com/profile.php?id=100028939350475"
               target="_blank"
-              aria-label="Facebook profile"
-            >
+              aria-label="Facebook profile">
               <img src="facebook.svg" alt="facebook" />
             </a>
             <a
               href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
               target="_blank"
-              aria-label="Whatsapp profile"
-            >
+              aria-label="Whatsapp profile" >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
-                aria-label="linkedin profile"
-              />
+                aria-label="linkedin profile" />
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
               <img src="what.png" alt="whatsapp" />
