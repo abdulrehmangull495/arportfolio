@@ -439,17 +439,18 @@ nav a:hover {
   background:
     radial-gradient(
       circle at 50% 45%,
-      rgba(37, 99, 235, 0.12),
+      rgba(214, 167, 26, 0.10),
       transparent 35%
     ),
     #050505;
 
-  color: white;
+  color: #ffffff;
   overflow: hidden;
 }
 
+
 /* =========================
-   CONTENT
+   MAIN CONTENT
 ========================= */
 
 .introContent {
@@ -462,8 +463,9 @@ nav a:hover {
   text-align: center;
 }
 
+
 /* =========================
-   WELCOME
+   WELCOME TEXT
 ========================= */
 
 .welcome {
@@ -474,7 +476,7 @@ nav a:hover {
 
   margin-bottom: 28px;
 
-  color: #a1a1aa;
+  color: #a1a1a1;
 
   font-size: 14px;
   font-weight: 400;
@@ -487,8 +489,9 @@ nav a:hover {
   width: 35px;
   height: 1px;
 
-  background: #52525b;
+  background: rgba(214, 167, 26, 0.5);
 }
+
 
 /* =========================
    NAME
@@ -513,10 +516,11 @@ nav a:hover {
 
   background: linear-gradient(
     120deg,
-    #ffffff 20%,
-    #dbeafe 45%,
-    #60a5fa 70%,
-    #ffffff 90%
+    #ffffff 15%,
+    #fff5c7 35%,
+    #d6a71a 55%,
+    #ffffff 75%,
+    #d6a71a 90%
   );
 
   background-size: 250% auto;
@@ -526,10 +530,10 @@ nav a:hover {
 
   color: transparent;
 
-  animation: shine 4s linear infinite;
+  animation: goldShine 4s linear infinite;
 }
 
-@keyframes shine {
+@keyframes goldShine {
   0% {
     background-position: 200% center;
   }
@@ -539,8 +543,9 @@ nav a:hover {
   }
 }
 
+
 /* =========================
-   LINE
+   ANIMATED LINE
 ========================= */
 
 .animatedLine {
@@ -549,7 +554,7 @@ nav a:hover {
 
   margin: 35px auto 25px;
 
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(214, 167, 26, 0.15);
 
   overflow: hidden;
 }
@@ -560,14 +565,16 @@ nav a:hover {
   background: linear-gradient(
     90deg,
     transparent,
-    #60a5fa,
-    #a78bfa,
+    #d6a71a,
+    #ffffff,
+    #d6a71a,
     transparent
   );
 
   box-shadow:
-    0 0 15px rgba(96, 165, 250, 0.8);
+    0 0 15px rgba(214, 167, 26, 0.8);
 }
+
 
 /* =========================
    ROLE
@@ -586,15 +593,31 @@ nav a:hover {
 .role span {
   background: linear-gradient(
     90deg,
-    #60a5fa,
-    #a78bfa
+    #d6a71a,
+    #f4d66d,
+    #d6a71a
   );
+
+  background-size: 200% auto;
 
   -webkit-background-clip: text;
   background-clip: text;
 
   color: transparent;
+
+  animation: roleShine 3s linear infinite;
 }
+
+@keyframes roleShine {
+  0% {
+    background-position: 200% center;
+  }
+
+  100% {
+    background-position: -200% center;
+  }
+}
+
 
 /* =========================
    STATUS
@@ -608,7 +631,7 @@ nav a:hover {
 
   margin-top: 35px;
 
-  color: #71717a;
+  color: #777777;
 
   font-size: 12px;
   letter-spacing: 1px;
@@ -620,14 +643,16 @@ nav a:hover {
 
   border-radius: 50%;
 
-  background: #60a5fa;
+  background: #d6a71a;
 
-  box-shadow: 0 0 12px #60a5fa;
+  box-shadow:
+    0 0 8px #d6a71a,
+    0 0 18px rgba(214, 167, 26, 0.7);
 
-  animation: pulse 1.5s infinite;
+  animation: pulseGold 1.5s infinite;
 }
 
-@keyframes pulse {
+@keyframes pulseGold {
   0% {
     opacity: 0.3;
     transform: scale(0.8);
@@ -635,7 +660,7 @@ nav a:hover {
 
   50% {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
 
   100% {
@@ -644,8 +669,9 @@ nav a:hover {
   }
 }
 
+
 /* =========================
-   GLOW
+   GOLD GLOW
 ========================= */
 
 .glow {
@@ -656,7 +682,7 @@ nav a:hover {
 
   border-radius: 50%;
 
-  filter: blur(100px);
+  filter: blur(110px);
 
   pointer-events: none;
 }
@@ -665,7 +691,7 @@ nav a:hover {
   top: -200px;
   left: -150px;
 
-  background: rgba(37, 99, 235, 0.12);
+  background: rgba(214, 167, 26, 0.10);
 
   animation: floatGlow 7s ease-in-out infinite;
 }
@@ -674,7 +700,7 @@ nav a:hover {
   right: -180px;
   bottom: -220px;
 
-  background: rgba(124, 58, 237, 0.12);
+  background: rgba(214, 167, 26, 0.08);
 
   animation: floatGlow 9s ease-in-out infinite reverse;
 }
@@ -692,6 +718,7 @@ nav a:hover {
     transform: translate(0, 0);
   }
 }
+
 
 /* =========================
    PARTICLES
@@ -712,13 +739,16 @@ nav a:hover {
 
   border-radius: 50%;
 
-  background: #93c5fd;
+  background: #d6a71a;
 
-  box-shadow: 0 0 8px #60a5fa;
+  box-shadow:
+    0 0 6px #d6a71a,
+    0 0 12px rgba(214, 167, 26, 0.6);
 }
 
+
 /* =========================
-   CIRCLES
+   ROTATING CIRCLES
 ========================= */
 
 .circle {
@@ -727,7 +757,7 @@ nav a:hover {
   left: 50%;
   top: 50%;
 
-  border: 1px solid rgba(96, 165, 250, 0.08);
+  border: 1px solid rgba(214, 167, 26, 0.08);
 
   border-radius: 50%;
 
@@ -741,7 +771,7 @@ nav a:hover {
   margin-left: -325px;
   margin-top: -325px;
 
-  border-top-color: rgba(96, 165, 250, 0.35);
+  border-top-color: rgba(214, 167, 26, 0.35);
 }
 
 .circleTwo {
@@ -751,11 +781,12 @@ nav a:hover {
   margin-left: -425px;
   margin-top: -425px;
 
-  border-right-color: rgba(167, 139, 250, 0.25);
+  border-right-color: rgba(214, 167, 26, 0.22);
 }
 
+
 /* =========================
-   PROGRESS
+   PROGRESS BAR
 ========================= */
 
 .progressContainer {
@@ -767,7 +798,7 @@ nav a:hover {
   width: 100%;
   height: 2px;
 
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(214, 167, 26, 0.08);
 }
 
 .progress {
@@ -775,14 +806,18 @@ nav a:hover {
 
   background: linear-gradient(
     90deg,
-    #2563eb,
-    #60a5fa,
-    #a78bfa
+    transparent,
+    #d6a71a,
+    #f4d66d,
+    #d6a71a,
+    transparent
   );
 
   box-shadow:
-    0 0 15px rgba(96, 165, 250, 0.8);
+    0 0 12px rgba(214, 167, 26, 0.8),
+    0 0 25px rgba(214, 167, 26, 0.3);
 }
+
 
 /* =========================
    CORNER TEXT
@@ -793,7 +828,7 @@ nav a:hover {
 
   z-index: 10;
 
-  color: #52525b;
+  color: rgba(214, 167, 26, 0.45);
 
   font-size: 10px;
   letter-spacing: 2px;
@@ -819,11 +854,13 @@ nav a:hover {
   right: 35px;
 }
 
+
 /* =========================
    RESPONSIVE
 ========================= */
 
 @media (max-width: 768px) {
+
   .welcome {
     font-size: 11px;
     letter-spacing: 2px;
@@ -873,7 +910,13 @@ nav a:hover {
   }
 }
 
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
 @media (max-width: 480px) {
+
   .introContent {
     width: 94%;
   }
@@ -884,11 +927,21 @@ nav a:hover {
 
   .animatedLine {
     width: 180px;
+
     margin-top: 25px;
   }
 
   .status {
     margin-top: 25px;
+
     font-size: 10px;
+  }
+
+  .circleOne {
+    opacity: 0.5;
+  }
+
+  .circleTwo {
+    opacity: 0.3;
   }
 }
