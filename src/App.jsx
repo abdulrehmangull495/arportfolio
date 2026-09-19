@@ -2,9 +2,12 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import "./index.css";
 import ScrollToTop from "./ScrollToTop";
+import Intro from "./Intro";
+
 function App() {
   return (
     <>
+          <Intro />
       <main className="main-container">
         {/* sidebar */}
         <motion.aside

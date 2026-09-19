@@ -426,3 +426,469 @@ nav a:hover {
     padding: 10px;
   }
 }
+
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(37, 99, 235, 0.12),
+      transparent 35%
+    ),
+    #050505;
+
+  color: white;
+  overflow: hidden;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.introContent {
+  position: relative;
+  z-index: 5;
+
+  width: 90%;
+  max-width: 1000px;
+
+  text-align: center;
+}
+
+/* =========================
+   WELCOME
+========================= */
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  margin-bottom: 28px;
+
+  color: #a1a1aa;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.welcomeLine {
+  width: 35px;
+  height: 1px;
+
+  background: #52525b;
+}
+
+/* =========================
+   NAME
+========================= */
+
+.nameWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  perspective: 1000px;
+}
+
+.nameLetter {
+  display: inline-block;
+
+  font-size: clamp(42px, 7vw, 88px);
+  font-weight: 700;
+
+  line-height: 1.05;
+  letter-spacing: -3px;
+
+  background: linear-gradient(
+    120deg,
+    #ffffff 20%,
+    #dbeafe 45%,
+    #60a5fa 70%,
+    #ffffff 90%
+  );
+
+  background-size: 250% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+
+  100% {
+    background-position: -200% center;
+  }
+}
+
+/* =========================
+   LINE
+========================= */
+
+.animatedLine {
+  width: 260px;
+  height: 1px;
+
+  margin: 35px auto 25px;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  overflow: hidden;
+}
+
+.animatedLine div {
+  height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #60a5fa,
+    #a78bfa,
+    transparent
+  );
+
+  box-shadow:
+    0 0 15px rgba(96, 165, 250, 0.8);
+}
+
+/* =========================
+   ROLE
+========================= */
+
+.role {
+  font-size: clamp(22px, 3vw, 32px);
+
+  font-weight: 500;
+
+  letter-spacing: 5px;
+
+  text-transform: uppercase;
+}
+
+.role span {
+  background: linear-gradient(
+    90deg,
+    #60a5fa,
+    #a78bfa
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+}
+
+/* =========================
+   STATUS
+========================= */
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin-top: 35px;
+
+  color: #71717a;
+
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.statusDot {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: #60a5fa;
+
+  box-shadow: 0 0 12px #60a5fa;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+}
+
+/* =========================
+   GLOW
+========================= */
+
+.glow {
+  position: absolute;
+
+  width: 450px;
+  height: 450px;
+
+  border-radius: 50%;
+
+  filter: blur(100px);
+
+  pointer-events: none;
+}
+
+.glowOne {
+  top: -200px;
+  left: -150px;
+
+  background: rgba(37, 99, 235, 0.12);
+
+  animation: floatGlow 7s ease-in-out infinite;
+}
+
+.glowTwo {
+  right: -180px;
+  bottom: -220px;
+
+  background: rgba(124, 58, 237, 0.12);
+
+  animation: floatGlow 9s ease-in-out infinite reverse;
+}
+
+@keyframes floatGlow {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(60px, -40px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* =========================
+   PARTICLES
+========================= */
+
+.particles {
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+
+  width: 2px;
+  height: 2px;
+
+  border-radius: 50%;
+
+  background: #93c5fd;
+
+  box-shadow: 0 0 8px #60a5fa;
+}
+
+/* =========================
+   CIRCLES
+========================= */
+
+.circle {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  border: 1px solid rgba(96, 165, 250, 0.08);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.circleOne {
+  width: 650px;
+  height: 650px;
+
+  margin-left: -325px;
+  margin-top: -325px;
+
+  border-top-color: rgba(96, 165, 250, 0.35);
+}
+
+.circleTwo {
+  width: 850px;
+  height: 850px;
+
+  margin-left: -425px;
+  margin-top: -425px;
+
+  border-right-color: rgba(167, 139, 250, 0.25);
+}
+
+/* =========================
+   PROGRESS
+========================= */
+
+.progressContainer {
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.progress {
+  height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    #2563eb,
+    #60a5fa,
+    #a78bfa
+  );
+
+  box-shadow:
+    0 0 15px rgba(96, 165, 250, 0.8);
+}
+
+/* =========================
+   CORNER TEXT
+========================= */
+
+.cornerText {
+  position: absolute;
+
+  z-index: 10;
+
+  color: #52525b;
+
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.topLeft {
+  top: 30px;
+  left: 35px;
+}
+
+.topRight {
+  top: 30px;
+  right: 35px;
+}
+
+.bottomLeft {
+  bottom: 30px;
+  left: 35px;
+}
+
+.bottomRight {
+  bottom: 30px;
+  right: 35px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .welcome {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .welcomeLine {
+    width: 20px;
+  }
+
+  .nameLetter {
+    letter-spacing: -2px;
+  }
+
+  .role {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  .circleOne {
+    width: 450px;
+    height: 450px;
+
+    margin-left: -225px;
+    margin-top: -225px;
+  }
+
+  .circleTwo {
+    width: 600px;
+    height: 600px;
+
+    margin-left: -300px;
+    margin-top: -300px;
+  }
+
+  .cornerText {
+    font-size: 8px;
+  }
+
+  .topLeft,
+  .bottomLeft {
+    left: 18px;
+  }
+
+  .topRight,
+  .bottomRight {
+    right: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .introContent {
+    width: 94%;
+  }
+
+  .welcome {
+    margin-bottom: 20px;
+  }
+
+  .animatedLine {
+    width: 180px;
+    margin-top: 25px;
+  }
+
+  .status {
+    margin-top: 25px;
+    font-size: 10px;
+  }
+}
