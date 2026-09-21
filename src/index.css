@@ -834,7 +834,6 @@ nav a:hover {
   .circleOne {
     width: 450px;
     height: 450px;
-
     margin-left: -225px;
     margin-top: -225px;
   }
@@ -842,7 +841,6 @@ nav a:hover {
   .circleTwo {
     width: 600px;
     height: 600px;
-
     margin-left: -300px;
     margin-top: -300px;
   }
@@ -852,17 +850,14 @@ nav a:hover {
 /* Mobile */
 
 @media (max-width: 500px) {
-
   .introContent {
     width: 95%;
   }
 
   .welcome {
     gap: 8px;
-
     font-size: 9px;
     letter-spacing: 1.3px;
-
     white-space: nowrap;
   }
 
@@ -872,15 +867,12 @@ nav a:hover {
 
   .introName {
     font-size: clamp(27px, 8vw, 40px);
-
     letter-spacing: -1.2px;
-
     white-space: nowrap;
   }
 
   .role {
     font-size: 16px;
-
     letter-spacing: 2.5px;
   }
 
@@ -890,7 +882,6 @@ nav a:hover {
 
   .animatedLine {
     width: 160px;
-
     margin-top: 22px;
     margin-bottom: 18px;
   }
@@ -912,7 +903,6 @@ nav a:hover {
   .circleOne {
     width: 350px;
     height: 350px;
-
     margin-left: -175px;
     margin-top: -175px;
   }
@@ -920,7 +910,6 @@ nav a:hover {
   .circleTwo {
     width: 480px;
     height: 480px;
-
     margin-left: -240px;
     margin-top: -240px;
   }
