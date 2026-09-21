@@ -757,7 +757,6 @@ nav a:hover {
 
 .progress {
   height: 100%;
-
   background: linear-gradient(
     90deg,
     transparent,
@@ -766,7 +765,6 @@ nav a:hover {
     #d6a71a,
     transparent
   );
-
   box-shadow:
     0 0 12px rgba(214, 167, 26, 0.8);
 }
@@ -776,16 +774,11 @@ nav a:hover {
 
 .cornerText {
   position: absolute;
-
   color: rgba(214, 167, 26, 0.4);
-
   font-size: 9px;
-
   letter-spacing: 2px;
-
   z-index: 10;
 }
-
 .topLeft {
   top: 28px;
   left: 30px;
@@ -813,20 +806,16 @@ nav a:hover {
 
   .introName {
     font-size: clamp(30px, 7vw, 55px);
-
     letter-spacing: -1.5px;
   }
-
   .welcome {
     font-size: 11px;
     letter-spacing: 1.8px;
   }
-
   .role {
     font-size: 18px;
     letter-spacing: 3px;
   }
-
   .animatedLine {
     width: 190px;
   }
