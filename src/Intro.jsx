@@ -11,7 +11,6 @@ const Intro = () => {
     const timer = setTimeout(() => {
       setShowIntro(false);
     }, 3000);
-
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,11 +28,9 @@ const Intro = () => {
           transition={{
             duration: 0.5,
             ease: "easeInOut",
-          }}
-        >
+          }}>
           <div className="glow glowOne"></div>
           <div className="glow glowTwo"></div>
-
           {/* Particles */}
           <div className="particles">
             {particles.map((_, index) => (
@@ -61,9 +58,7 @@ const Intro = () => {
               />
             ))}
           </div>
-
           <div className="introContent">
-
             {/* Welcome */}
             <motion.div
               className="welcome"
@@ -71,15 +66,13 @@ const Intro = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{
                 duration: 0.45,
-              }}
-            >
+              }}>
               <span className="welcomeLine"></span>
 
               Welcome to my portfolio
 
               <span className="welcomeLine"></span>
             </motion.div>
-
             {/* Name */}
             <motion.h1
               className="introName"
@@ -97,11 +90,9 @@ const Intro = () => {
                 duration: 0.65,
                 delay: 0.25,
                 ease: [0.22, 1, 0.36, 1],
-              }}
-            >
+              }}>
               I'm Abdul Rehman Gull
             </motion.h1>
-
             {/* Line */}
             <div className="animatedLine">
               <motion.div
@@ -114,7 +105,6 @@ const Intro = () => {
                 }}
               />
             </div>
-
             {/* Role */}
             <motion.h2
               className="role"
