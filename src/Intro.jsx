@@ -102,8 +102,7 @@ const Intro = () => {
                   duration: 0.9,
                   delay: 0.65,
                   ease: "easeOut",
-                }}
-              />
+                }} />
             </div>
             {/* Role */}
             <motion.h2
@@ -121,11 +120,9 @@ const Intro = () => {
               transition={{
                 duration: 0.55,
                 delay: 0.8,
-              }}
-            >
+              }}>
               Frontend Developer
             </motion.h2>
-
             {/* Status */}
             <motion.div
               className="status"
@@ -134,12 +131,10 @@ const Intro = () => {
               transition={{
                 delay: 1.15,
                 duration: 0.5,
-              }}
-            >
+              }}>
               <span className="statusDot"></span>
               Building fast & responsive websites
             </motion.div>
-
             {/* Circles */}
             <motion.div
               className="circle circleOne"
@@ -148,9 +143,7 @@ const Intro = () => {
                 duration: 10,
                 repeat: Infinity,
                 ease: "linear",
-              }}
-            />
-
+              }}/>
             <motion.div
               className="circle circleTwo"
               animate={{ rotate: -360 }}
@@ -158,11 +151,8 @@ const Intro = () => {
                 duration: 14,
                 repeat: Infinity,
                 ease: "linear",
-              }}
-            />
-
+              }}/>
           </div>
-
           {/* Progress */}
           <div className="progressContainer">
             <motion.div
@@ -172,26 +162,20 @@ const Intro = () => {
               transition={{
                 duration: 2.8,
                 ease: "linear",
-              }}
-            />
+              }}/>
           </div>
-
           <div className="cornerText topLeft">
-            AR / 01
+            ABDUL REHMAN GULL
           </div>
-
           <div className="cornerText topRight">
             PORTFOLIO
           </div>
-
           <div className="cornerText bottomLeft">
             FRONTEND
           </div>
-
           <div className="cornerText bottomRight">
             2026
           </div>
-
         </motion.div>
       )}
     </AnimatePresence>
