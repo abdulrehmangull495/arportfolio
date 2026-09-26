@@ -679,16 +679,12 @@ nav a:hover {
     transform: translate(0, 0);
   }
 }
-
-
 /* Particles */
-
 .particles {
   position: absolute;
   inset: 0;
   pointer-events: none;
 }
-
 .particle {
   position: absolute;
   width: 2px;
@@ -698,8 +694,6 @@ nav a:hover {
   box-shadow:
     0 0 6px #d6a71a;
 }
-
-
 /* Circles */
 
 .circle {
