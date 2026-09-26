@@ -133,7 +133,8 @@ const Intro = () => {
                 duration: 0.5,
               }}>
               <span className="statusDot"></span>
-              Building fast & responsive websites
+              <h2 className="buildingfast">Building fast & responsive websites</h2>
+              
             </motion.div>
             {/* Circles */}
             <motion.div
