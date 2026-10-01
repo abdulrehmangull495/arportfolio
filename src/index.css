@@ -785,14 +785,12 @@ nav a:hover {
   .animatedLine {
     width: 190px;
   }
-
   .circleOne {
     width: 450px;
     height: 450px;
     margin-left: -225px;
     margin-top: -225px;
   }
-
   .circleTwo {
     width: 600px;
     height: 600px;
@@ -800,61 +798,49 @@ nav a:hover {
     margin-top: -300px;
   }
 }
-
-
 /* Mobile */
 
 @media (max-width: 500px) {
   .introContent {
     width: 95%;
   }
-
   .welcome {
     gap: 8px;
     font-size: 9px;
     letter-spacing: 1.3px;
     white-space: nowrap;
   }
-
   .welcomeLine {
     width: 18px;
   }
-
   .introName {
     font-size: clamp(27px, 8vw, 40px);
     letter-spacing: -1.2px;
     white-space: nowrap;
   }
-
   .role {
     font-size: 16px;
     letter-spacing: 2.5px;
   }
-
   .status {
     font-size: 9px;
   }
-
   .animatedLine {
     width: 160px;
     margin-top: 22px;
     margin-bottom: 18px;
   }
-
   .cornerText {
     font-size: 7px;
   }
-
   .topLeft,
   .bottomLeft {
     left: 15px;
   }
-
   .topRight,
   .bottomRight {
     right: 15px;
   }
-
   .circleOne {
     width: 350px;
     height: 350px;
