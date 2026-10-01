@@ -674,7 +674,6 @@ nav a:hover {
   50% {
     transform: translate(50px, -30px);
   }
-
   100% {
     transform: translate(0, 0);
   }
@@ -695,7 +694,6 @@ nav a:hover {
     0 0 6px #d6a71a;
 }
 /* Circles */
-
 .circle {
   position: absolute;
   left: 50%;
@@ -704,7 +702,6 @@ nav a:hover {
   pointer-events: none;
   border: 1px solid rgba(214, 167, 26, 0.06);
 }
-
 .circleOne {
   width: 620px;
   height: 620px;
@@ -712,7 +709,6 @@ nav a:hover {
   margin-top: -310px;
   border-top-color: rgba(214, 167, 26, 0.28);
 }
-
 .circleTwo {
   width: 800px;
   height: 800px;
@@ -721,7 +717,6 @@ nav a:hover {
   border-right-color: rgba(214, 167, 26, 0.18);
 }
 /* Progress */
-
 .progressContainer {
   position: absolute;
   left: 0;
@@ -747,10 +742,7 @@ nav a:hover {
   box-shadow:
     0 0 12px rgba(214, 167, 26, 0.8);
 }
-
-
 /* Corner text */
-
 .cornerText {
   position: absolute;
   color: rgba(214, 167, 26, 0.4);
@@ -762,23 +754,18 @@ nav a:hover {
   top: 28px;
   left: 30px;
 }
-
 .topRight {
   top: 28px;
   right: 30px;
 }
-
 .bottomLeft {
   bottom: 28px;
   left: 30px;
 }
-
 .bottomRight {
   bottom: 28px;
   right: 30px;
 }
-
-
 /* Tablet */
 
 @media (max-width: 768px) {
