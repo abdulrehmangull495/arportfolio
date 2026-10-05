@@ -7,7 +7,7 @@ import Intro from "./Intro";
 function App() {
   return (
     <>
-          <Intro />
+      <Intro />
       <main className="main-container">
         {/* sidebar */}
         <motion.aside
@@ -17,7 +17,8 @@ function App() {
           variants={{
             hidden: {},
             show: { transition: { staggerChildren: 0.15 } },
-          }} >
+          }}
+        >
           <motion.div
             className="profile"
             variants={{
@@ -27,7 +28,8 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }} >
+            }}
+          >
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
@@ -39,14 +41,16 @@ function App() {
                 objectFit: "cover",
                 borderRadius: "50%",
                 border: "2px solid #d6a71a",
-              }}/>
+              }}
+            />
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
             <div className="downloadresume">
               <a
                 href="/Abdul Rehman Gull Frontend Developer Resume.pdf"
                 target="_blank"
-                className="cv">
+                className="cv"
+              >
                 Download Resume
               </a>
             </div>
@@ -54,7 +58,8 @@ function App() {
               <a
                 href="https://github.com/abdulrehmangull495"
                 target="_blank"
-                className="cv">
+                className="cv"
+              >
                 Github
               </a>
             </div>
@@ -68,8 +73,9 @@ function App() {
                 y: 0,
                 transition: { duration: 0.5, ease: "easeOut" },
               },
-            }}>
-           <div className="mail">
+            }}
+          >
+            <div className="mail">
               <h2 className="label">Email</h2>
               <a className="value" href="mailto:abdulrehmangull495@gmail.com">
                 abdulrehmangull495@gmail.com
@@ -90,22 +96,26 @@ function App() {
             className="social"
             initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0 }}
             animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}>
+            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}
+          >
             <h3 className="contactme">Contact me</h3>
             <a
               href="https://www.facebook.com/profile.php?id=100028939350475"
               target="_blank"
-              aria-label="Facebook profile">
+              aria-label="Facebook profile"
+            >
               <img src="facebook.svg" alt="facebook" />
             </a>
             <a
               href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
               target="_blank"
-              aria-label="Whatsapp profile" >
+              aria-label="Whatsapp profile"
+            >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
-                aria-label="linkedin profile" />
+                aria-label="linkedin profile"
+              />
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
               <img src="what.png" alt="whatsapp" />
@@ -332,11 +342,14 @@ function App() {
                     Live Preview ↗
                   </a>
                   <p>
-                    Built a responsive e-commerce frontend with React.js, CSS3,
-                    Bootstrap 5 and JavaScript. Includes product listing, search
-                    and filtering, a working cart with add/remove functionality,
-                    dark mode and smooth page transitions using Framer Motion
-                    and React Router.
+                    Built a responsive e commerce frontend using React.js,
+                    JavaScript, Bootstrap 5 and CSS3. Implemented reusable
+                    product components, product search and filtering, React
+                    Router based navigation, a functional shopping cart with add
+                    and remove functionality, form validation, dark mode and
+                    smooth UI animations using Framer Motion. Designed the
+                    interface to work across desktop, tablet and mobile
+                    screens.
                   </p>
                   <span>React.js</span>
                   <span>JavaScript</span>
