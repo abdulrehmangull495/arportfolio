@@ -364,16 +364,14 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.7 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Apex School Management</h3>
@@ -381,8 +379,7 @@ function App() {
                     href="https://apex-school-ten.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="projects-link"
-                  >
+                    className="projects-link" >
                     Live Preview ↗
                   </a>
                   <p>
@@ -399,20 +396,17 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.13 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="adsl.png"
                     alt="adsliticsdashboard"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
-
                   <a
                     href="https://adsliticsdash.vercel.app/"
                     target="_blank"
