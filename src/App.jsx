@@ -41,16 +41,14 @@ function App() {
                 objectFit: "cover",
                 borderRadius: "50%",
                 border: "2px solid #d6a71a",
-              }}
-            />
+              }} />
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
             <div className="downloadresume">
               <a
                 href="/Abdul Rehman Gull Frontend Developer Resume.pdf"
                 target="_blank"
-                className="cv"
-              >
+                className="cv" >
                 Download Resume
               </a>
             </div>
@@ -58,8 +56,7 @@ function App() {
               <a
                 href="https://github.com/abdulrehmangull495"
                 target="_blank"
-                className="cv"
-              >
+                className="cv">
                 Github
               </a>
             </div>
