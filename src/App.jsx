@@ -441,7 +441,7 @@ function App() {
               >
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img
-                    src="Screenshot 2025-09-24 155923.png"
+                    src="kite.png"
                     alt="kitmens"
                     width={"100px"}
                     height={"100px"}
