@@ -437,15 +437,13 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.18 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img
                     src="kite.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
@@ -453,8 +451,7 @@ function App() {
                     href="https://kitemens.surge.sh/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="projects-link"
-                  >
+                    className="projects-link">
                     Live Preview ↗
                   </a>
                   <p>
@@ -472,26 +469,22 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.22 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }} >
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img
                     className="coffee"
                     src="coffee.png"
                     alt="coffee"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
-
                   <a
                     href="https://coffeenest.surge.sh/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="projects-link"
-                  >
+                    className="projects-link" >
                     Live Preview ↗
                   </a>
                   <p>
@@ -509,26 +502,22 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.26 }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+                transition={{ duration: 0.5, ease: "easeOut" }}  >
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img
                     className="ads"
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
-
                   <a
                     href="https://inkomoko.surge.sh/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="projects-link"
-                  >
+                    className="projects-link">
                     Live Preview ↗
                   </a>
                   <p>
@@ -548,8 +537,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }}>
             <h1 className="whywork">Why Work With Me</h1>
             <div className="line"></div>
             <div className="">
@@ -585,13 +573,11 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h1 className="headingportfolio">How I Build</h1>
             <div className="line"></div>
             <div className="">
-              {/* <p className="firstidea">
-                
+              {/* <p className="firstidea"> 
               </p> */}
               <h4 className="points">1.Understand the goal:</h4>
               <p>What is this page for and who's using it?</p>
@@ -617,8 +603,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }}>
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
@@ -628,8 +613,7 @@ function App() {
                   src="/Reactjs certification.png"
                   alt="schoolmanagemant"
                   width={"70px"}
-                  height={"70px"}
-                />
+                  height={"70px"} />
                 <div className="card">
                   <h3>Reactjs Certification</h3>
                   <p>
@@ -649,8 +633,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h2 className="headingeducation">Education</h2>
             <div className="line"></div>
             <div className="edtech">
