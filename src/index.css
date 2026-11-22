@@ -131,7 +131,7 @@ body {
   padding-left: 40px;
   text-align: center;
 }
-.social img {
+/* .social img {
   width: 24px;
   height: 24px;
   margin-left: 5px;
@@ -140,6 +140,25 @@ body {
 }
 .social img:hover {
   filter: grayscale(0) invert(0);
+} */
+
+.social img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  filter: none;
+  transition: transform 0.3s ease;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+}
+
+.social img {
+  width: 100px;
+  height: 100px;
+  filter: none !important;
+  transition: transform 0.3s ease;
 }
 /* maincontent */
 /* navbar */
