@@ -148,6 +148,7 @@ body {
   margin-left: 5px;
   filter: none;
   transition: transform 0.3s ease;
+  
 }
 
 .social img:hover {
@@ -160,6 +161,8 @@ body {
   filter: none !important;
   transition: transform 0.3s ease;
 }
+
+
 /* maincontent */
 /* navbar */
 #navigation {
