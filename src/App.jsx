@@ -1,36 +1,74 @@
 import { useState } from "react";
-
+import { motion } from "framer-motion";
 import "./index.css";
 import ScrollToTop from "./ScrollToTop";
+import Intro from "./Intro";
+
 function App() {
   return (
     <>
+      <Intro />
       <main className="main-container">
         {/* sidebar */}
-        <aside className="sidebar">
-          <div className="profile">
-            <img
+        <motion.aside
+          className="sidebar"
+          initial="hidden"
+          animate="show"
+          variants={{
+            hidden: {},
+            show: { transition: { staggerChildren: 0.15 } },
+          }} >
+          <motion.div
+            className="profile"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              show: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.5, ease: "easeOut" },
+              },
+            }}>
+            <motion.img
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
               src="abdul rehman.png"
               alt="Abdul Rehman"
-              width="100"
-              height="100"
-              style={{ objectFit: "cover" }}/>
-
+              width="150"
+              height="150"
+              style={{
+                objectFit: "cover",
+                borderRadius: "50%",
+                border: "2px solid #d6a71a",
+              }} />
             <h2>Abdul Rehman Gull</h2>
             <p>Frontend Developer</p>
-
             <div className="downloadresume">
               <a
                 href="/Abdul Rehman Gull Frontend Developer Resume.pdf"
                 target="_blank"
-                className="cv"
-              >
+                className="cv" >
                 Download Resume
               </a>
             </div>
-          </div>
-
-          <div className="contact">
+            <div className="github">
+              <a
+                href="https://github.com/abdulrehmangull495"
+                target="_blank"
+                className="cv">
+                Github
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            className="contact"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              show: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.5, ease: "easeOut" },
+              },
+            }}>
             <div className="mail">
               <h2 className="label">Email</h2>
               <a className="value" href="mailto:abdulrehmangull495@gmail.com">
@@ -45,41 +83,50 @@ function App() {
             </div>
             <div className="location">
               <h2 className="label">Location</h2>
-
               <p className="value">Faisalabad.</p>
             </div>
-          </div>
-          <div className="social">
+          </motion.div>
+          <motion.div
+            className="social"
+            initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0 }}
+            animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.7, ease: [0.65, 0, 0.35, 1] }}>
             <h3 className="contactme">Contact me</h3>
             <a
               href="https://www.facebook.com/profile.php?id=100028939350475"
               target="_blank"
-              aria-label="Facebook profile"
-            >
+              aria-label="Facebook profile">
               <img src="facebook.svg" alt="facebook" />
             </a>
-
             <a
               href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
               target="_blank"
-              aria-label="Whatsapp profile"
-            >
+              aria-label="Whatsapp profile">
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
                 alt="linkedin"
-                aria-label="linkedin profile"
-              />
+                aria-label="linkedin profile"/>
             </a>
             <a href="https://wa.me/923141458867" target="_blank">
               <img src="what.png" alt="whatsapp" />
             </a>
-          </div>
-        </aside>
+          </motion.div>
+        </motion.aside>
         {/*  main content */}
         <div className="main-content">
           {/* navigation */}
-          
-          <div id="navigation">
+          <motion.div
+            id="navigation"
+            initial="hidden"
+            animate="show"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              show: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.5, ease: "easeOut" },
+              },
+            }} >
             <nav>
               <a href="#about" className="active">
                 About
@@ -88,99 +135,224 @@ function App() {
               <a href="#portfolio">Portfolio</a>
               <a href="#education">Education</a>
             </nav>
-          </div>
+          </motion.div>
           {/* about me */}
-          <div id="about">
+          <motion.div
+            id="about"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="headingabout">About Me</h2>
             <div className="line"></div>
             <p className="content">
-              Frontend Developer with 6+ months of experience building
-              responsive and modern user interfaces using React.js and
-              JavaScript. Skilled in HTML5, CSS3, Tailwind CSS and Bootstrap5
-              with hands-on experience developing reusable components and
-              mobile-first designs. Passionate about building clean, scalable
-              and user-friendly web applications.
+              I build responsive and user friendly web experiences that turn
+              ideas and designs into functional, practical applications. I’m a
+              Frontend Developer with 5 to 6 months of hands on experience
+              working with React.js, JavaScript, HTML5, CSS3, Tailwind CSS and
+              Bootstrap 5. I specialize in building reusable components,
+              responsive interfaces and solving frontend challenges through real
+              world projects. Currently, I’m focused on strengthening my React
+              and JavaScript skills while building clean, efficient and
+              practical web applications.
             </p>
-          </div>
+          </motion.div>
+
+          {/* Experience */}
+          <motion.div
+            id="about"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}  >
+            <h2 className="headingabout">Experience</h2>
+            <div className="line"></div>
+            <h4>Frontend Developer Intern | GMZ</h4>
+            <h4 className="june">Dec 2024 to April 2025</h4>
+            <p className="content">
+              During this internship, I built 3 React-based dashboard interfaces
+              with reusable components and a responsive company landing page
+              using HTML5, CSS3, and Bootstrap 5. I worked directly with designs
+              and requirements, converting them into functional, mobile-first
+              interfaces and spent time debugging cross-browser issues as they
+              came up.
+            </p>
+            <h4 className="key">Key Work:</h4>
+            <p>• Built 2 responsive landing pages</p>
+            <p>• Developed 3 dashboard interfaces</p>
+            <p>• Created responsive layouts for different screen sizes</p>
+            <p>
+              • Converted designs and requirements into functional interfaces
+            </p>
+            <p>• Worked on frontend debugging and UI improvements</p>
+          </motion.div>
           {/* skills */}
-          <div id="skills"></div>
-          <h2 className="headingskills">Skills</h2>
-          <div className="line"></div>
-          <div className="grid-container">
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/html5.svg"
-                alt="HTML5"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>HTML5</h3>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }} >
+            <div id="skills"></div>
+            <h2 className="headingskills">Skills</h2>
+            <div className="line"></div>
+            <div className="grid-container">
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, ease: "easeOut" }} >
+                <img
+                  src="https://simpleicons.org/icons/html5.svg"
+                  alt="HTML5"
+                  width={"100px"}
+                  height={"100px"}/>
+                <h3>HTML5</h3>
+              </motion.div>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.8 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}>
+                <img
+                  src="https://simpleicons.org/icons/css.svg"
+                  alt="CSS3"
+                  width={"100px"}
+                  height={"100px"}/>
+                <h3>CSS3</h3>
+              </motion.div>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.14 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}>
+                <img
+                  src="https://simpleicons.org/icons/javascript.svg"
+                  alt="JavaScript"
+                  width={"100px"}
+                  height={"100px"} />
+                <h3>JavaScript</h3>
+              </motion.div>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.15 }}
+                transition={{ duration: 0.6, ease: "easeOut" }} >
+                <img
+                  src="https://simpleicons.org/icons/tailwindcss.svg"
+                  alt="Tailwindcss"
+                  width={"100px"}
+                  height={"100px"} />
+                <h3>Tailwind CSS</h3>
+              </motion.div>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.18 }}
+                transition={{ duration: 0.6, ease: "easeOut" }} >
+                <img
+                  src="https://simpleicons.org/icons/bootstrap.svg"
+                  alt="Bootstrap5"
+                  width={"100px"}
+                  height={"100px"}  />
+                <h3>Bootstrap5</h3>
+              </motion.div>
+              <motion.div
+                className="item"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.23 }}
+                transition={{ duration: 0.6, ease: "easeOut" }} >
+                <img
+                  src="https://simpleicons.org/icons/react.svg"
+                  alt="Reactjs"
+                  width={"100px"}
+                  height={"100px"} />
+                <h3>Reactjs</h3>
+              </motion.div>
             </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/css.svg"
-                alt="CSS3"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>CSS3</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/javascript.svg"
-                alt="JavaScript"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>JavaScript</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/tailwindcss.svg"
-                alt="Tailwindcss"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Tailwind CSS</h3>
-            </div>
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/bootstrap.svg"
-                alt="Bootstrap5"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Bootstrap5</h3>
-            </div>
-
-            <div className="item">
-              <img
-                src="https://simpleicons.org/icons/react.svg"
-                alt="Reactjs"
-                width={"100px"}
-                height={"100px"}
-              />
-              <h3>Reactjs</h3>
-            </div>
-          </div>
-
+          </motion.div>
           {/* Certifications */}
-          <div id="portfolio">
-            <h1 className="headingportfolio">Portfolio</h1>
+          <motion.div id="portfolio">
+            <motion.h1
+              className="headingportfolio"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}>
+              Projects
+            </motion.h1>
             <div className="line"></div>
             <div className="project-container">
-              <div className="project">
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}>
+                <a href="https://arecom.vercel.app" target="_blank">
+                  <img
+                    className="ads"
+                    src="hero section.png"
+                    alt="arecom"
+                    width={"100px"}
+                    height={"100px"} />
+                </a>
+                <div className="card">
+                  <h3>Arecom | React.js E Commerce Frontend</h3>
+                  <a
+                    href="https://arecom.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link" >
+                    Live Preview ↗
+                  </a>
+                  <p>
+                    Built a responsive e commerce frontend using React.js,
+                    JavaScript, Bootstrap 5 and CSS3. Implemented reusable
+                    product components, product search and filtering, React
+                    Router based navigation, a functional shopping cart with add
+                    and remove functionality, form validation, dark mode and
+                    smooth UI animations using Framer Motion. Designed the
+                    interface to work across desktop, tablet and mobile
+                    screens.
+                  </p>
+                  <span>React.js</span>
+                  <span>JavaScript</span>
+                  <span>React Router</span>
+                  <span>Framer Motion</span>
+                  <span>Bootstrap 5</span>
+                  <span>CSS3</span>
+                </div>
+              </motion.div>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.7 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://apex-school-ten.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="apexbuilding.png"
                     alt="schoolmanagemant"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Apex School Management</h3>
+                  <a
+                    href="https://apex-school-ten.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link" >
+                    Live Preview ↗
+                  </a>
                   <p>
                     A responsive school management website built with React.js
                     and CSS3, featuring admission page, about section and a
@@ -189,19 +361,31 @@ function App() {
                   <span>React.js</span>
                   <span>CSS3</span>
                 </div>
-              </div>
-              <div className="project">
+              </motion.div>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.13 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://adsliticsdash.vercel.app/" target="_blank">
                   <img
                     className="ads"
                     src="adsl.png"
                     alt="adsliticsdashboard"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Adslitics Dashboard</h3>
+                  <a
+                    href="https://adsliticsdash.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
+                  </a>
                   <p>
                     Developed a responsive React.js dashboard featuring reusable
                     components, a clean user interface and an optimized layout
@@ -211,9 +395,14 @@ function App() {
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
-              </div>
-
-              <div className="project">
+              </motion.div>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              >
                 <a href="https://brarchitct.surge.sh/" target="_blank">
                   <img
                     src="brarch.png"
@@ -224,6 +413,15 @@ function App() {
                 </a>
                 <div className="card">
                   <h3>BR Architecture</h3>
+
+                  <a
+                    href="https://brarchitct.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link"
+                  >
+                    Live Preview ↗
+                  </a>
                   <p>
                     Built a fully responsive architecture landing page using
                     HTML5, CSS3 & Bootstrap 5 with a modern layout and smooth
@@ -233,19 +431,29 @@ function App() {
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
-              </div>
-              <div className="project">
+              </motion.div>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.18 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}>
                 <a href="https://kitemens.surge.sh/" target="_blank">
                   <img
-                    src="Screenshot 2025-09-24 155923.png"
+                    src="kite.png"
                     alt="kitmens"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
-
                 <div className="card">
                   <h3>Kitemens Landing Page</h3>
+                  <a
+                    href="https://kitemens.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link">
+                    Live Preview ↗
+                  </a>
                   <p>
                     Developed a fully responsive landing page using HTML5, CSS3
                     and Bootstrap 5 with a modern layout and mobile friendly
@@ -255,20 +463,30 @@ function App() {
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
-              </div>
-
-              <div className="project">
+              </motion.div>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.22 }}
+                transition={{ duration: 0.5, ease: "easeOut" }} >
                 <a href="https://coffeenest.surge.sh/" target="_blank">
                   <img
                     className="coffee"
                     src="coffee.png"
                     alt="coffee"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"}/>
                 </a>
                 <div className="card">
                   <h3>Coffee Nest</h3>
+                  <a
+                    href="https://coffeenest.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link" >
+                    Live Preview ↗
+                  </a>
                   <p>
                     Built a responsive multi page website using HTML5, CSS3 and
                     Bootstrap 5 with a clean UI and smooth navigation across all
@@ -278,20 +496,30 @@ function App() {
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
-              </div>
-
-              <div className="project">
+              </motion.div>
+              <motion.div
+                className="project"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.26 }}
+                transition={{ duration: 0.5, ease: "easeOut" }}  >
                 <a href="https://inkomoko.surge.sh/" target="_blank">
                   <img
                     className="ads"
                     src="inkomoko.png"
                     alt="inkomoko"
                     width={"100px"}
-                    height={"100px"}
-                  />
+                    height={"100px"} />
                 </a>
                 <div className="card">
                   <h3>Inkomoko Dashboard</h3>
+                  <a
+                    href="https://inkomoko.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-link">
+                    Live Preview ↗
+                  </a>
                   <p>
                     Developed a responsive dashboard using HTML5, CSS3 and
                     Bootstrap 5 with well structured components and consistent
@@ -301,26 +529,91 @@ function App() {
                   <span>Css3</span>
                   <span>Bootstrap5</span>
                 </div>
-              </div>
+              </motion.div>
             </div>
-          </div>
-          <div id="portfolio">
+          </motion.div>
+          <motion.div
+            id="portfolio"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}>
+            <h1 className="whywork">Why Work With Me</h1>
+            <div className="line"></div>
+            <div className="">
+              <p className="goodfrontend">
+                Good frontend work isn't just about looking good it has to work
+                smoothly too. Here's what I focus on:
+              </p>
+              <h4 className="points">1. Responsive by Default:</h4>
+              <p>
+                Every interface I build works properly across desktop, tablet
+                and mobile not just as an afterthought.
+              </p>
+              <h4 className="points">2. Clean,Reusable Code:</h4>
+              <p>
+                I write React components that are easy to maintain and reuse not
+                throwaway code for a single page.
+              </p>
+              <h4 className="points">3.Details matter:</h4>
+              <p>
+                Spacing, typography, hover states, small transitions the little
+                things are what make an interface feel finished instead of just
+                functional.
+              </p>
+              <h4 className="points">4.Still learning, every project:</h4>
+              <p>
+                Every project I build teaches me something new about React,
+                JavaScript, or frontend patterns I hadn't used before.
+              </p>
+            </div>
+          </motion.div>
+          <motion.div
+            id="portfolio"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }} >
+            <h1 className="headingportfolio">How I Build</h1>
+            <div className="line"></div>
+            <div className="">
+              {/* <p className="firstidea"> 
+              </p> */}
+              <h4 className="points">1.Understand the goal:</h4>
+              <p>What is this page for and who's using it?</p>
+              <h4 className="points">2.Plan before I code:</h4>
+              <p>
+                Layout, components and responsive behavior get sketched out
+                before I write anything.
+              </p>
+              <h4 className="points">3.Build it:</h4>
+              <p>
+                HTML, CSS, JavaScript, Reactjs and modern CSS get put together
+                into a working interface.
+              </p>
+              <h4 className="points">4.Test and refine:</h4>
+              <p>
+                I check it across screen sizes, fix what's broken and polish
+                what's rough.
+              </p>
+            </div>
+          </motion.div>
+          <motion.div
+            id="portfolio"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}>
             <h1 className="headingportfolio">Certification</h1>
             <div className="line"></div>
             <div className="project-container">
               <div className="project">
-                {/* <a
-                  href="https://apex-school-ten.vercel.app/"
-                  target="_blank">
-                 
-                </a> */}
                 <img
                   className="ads"
                   src="/Reactjs certification.png"
                   alt="schoolmanagemant"
                   width={"70px"}
-                  height={"70px"}
-                />
+                  height={"70px"} />
                 <div className="card">
                   <h3>Reactjs Certification</h3>
                   <p>
@@ -332,14 +625,17 @@ function App() {
                   <span>React.js</span>
                 </div>
               </div>
-              
             </div>
-          </div>
+          </motion.div>
           {/* education */}
-          <div id="education">
+          <motion.div
+            id="education"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, ease: "easeOut" }} >
             <h2 className="headingeducation">Education</h2>
             <div className="line"></div>
-
             <div className="edtech">
               <div className="edfirst">
                 <div className="year">2019-2023</div>
@@ -353,12 +649,11 @@ function App() {
                 </p>
                 <div className="goal"></div>
               </div>
-
               <div className="liner"></div>
             </div>
-          </div>
+          </motion.div>
         </div>
-        <ScrollToTop/>
+        <ScrollToTop />
       </main>
     </>
   );
