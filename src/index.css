@@ -131,16 +131,7 @@ body {
   padding-left: 40px;
   text-align: center;
 }
-/* .social img {
-  width: 24px;
-  height: 24px;
-  margin-left: 5px;
-  filter: grayscale(1) invert(0.7);
-  transition: filter 0.3 ease;
-}
-.social img:hover {
-  filter: grayscale(0) invert(0);
-} */
+
 
 .social img {
   width: 24px;
@@ -162,6 +153,17 @@ body {
   transition: transform 0.3s ease;
 }
 
+
+ .social img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  filter: grayscale(1) invert(0.7);
+  transition: filter 0.3 ease;
+}
+.social img:hover {
+  filter: grayscale(0) invert(0);
+} 
 
 /* maincontent */
 /* navbar */

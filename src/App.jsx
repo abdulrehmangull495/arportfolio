@@ -109,7 +109,7 @@ function App() {
             <a
               href="https://www.linkedin.com/in/abdul-rehman-gull-1802b0246"
               target="_blank"
-              aria-label="Whatsapp profile"
+              aria-label="Linkedin profile"
             >
               <img
                 src="https://www.svgrepo.com/show/204944/linkedin.svg"
